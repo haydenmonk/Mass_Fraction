@@ -1,5 +1,6 @@
 import rebound
 import numpy as np
+import sys
 
 def create_sim(m_planet, a_planet,
                N_particles, r_min, r_max,
@@ -32,6 +33,23 @@ def hill_radius(m_planet, a_planet, m_star=1.0):
     return a_planet * (m_planet/(3*m_star))**(1/3)
 
 if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        job_id = sys.argv[1]
+        task_id = sys.argv[2]
+        bash_id = sys.argv[3]
+        param_file = sys.argv[4]
+    else:
+        job_id = "test"
+        task_id = "0"
+        bash_id = "0"
+    # task_id_int = int(task_id)
+    print(task_id)
+
+    file_prefix = f"{job_id}-{task_id}-{bash_id}"
+    output_directory = '/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Outputs/Ejection_Results'
+
+    output_file=output_directory + f"/{file_prefix}_ejection_results.txt"
+
     m_planet=1e-3
     a_planet=1.0
     N_particles=1
@@ -54,12 +72,14 @@ if __name__ == "__main__":
 
 
     if sim.particles[-1].hash.value == planet_hash:
-        print(0)
+        result=0
     elif sim.particles[-1].hash.value == particle_hash:
-        print(1)
+        result=1
     else:
-        print("Last hash is neither planet nor particle.")
+        result=2
 
+    with open(output_file, "w") as f:
+        f.write(f"{result}\n")
     
 
 
