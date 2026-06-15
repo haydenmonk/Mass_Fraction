@@ -1,14 +1,14 @@
 #!/bin/bash --login
 
 #SBATCH --job-name=mass_fraction_sim          # Name of Job. Its whatever you want to call it.  
-#SBATCH --array=0-2
+#SBATCH --array=0-160
 #SBATCH --cpus-per-task=1          
-#SBATCH --ntasks=100                      #Dang suggest 128?    # Number of tasks. This is also the number of cores  # SLURM defaults to 1 but we specify anyway
+#SBATCH --ntasks=200                      #Dang suggest 128?    # Number of tasks. This is also the number of cores  # SLURM defaults to 1 but we specify anyway
 
 ## Use nodes keyword
 ## also ntasks-per-node
 #SBATCH --mem=10G                              # Memory per node   # Specify "M" or "G" for MB and GB respectively
-#SBATCH --time=23:59:00                         # Wall time         # Format: "minutes", "hours:minutes:seconds",      # "days-hours", or "days-hours:minutes"
+#SBATCH --time=47:59:00                         # Wall time         # Format: "minutes", "hours:minutes:seconds",      # "days-hours", or "days-hours:minutes"
 #SBATCH --output=/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Outputs/SLURM_Outputs/Outputs/%A-SLURM_output.out                # This will save your outputs to a file  %x: job name, %j: job ID
 #SBATCH --error=/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Outputs/SLURM_Outputs/Errors/%A-SLURM_error.out
 

@@ -1,0 +1,10 @@
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+[2026-06-14T19:32:17.767] error: *** JOB 10027661 ON amr-209 CANCELLED AT 2026-06-14T19:32:17 DUE to SIGNAL Terminated ***
+[2026-06-14T19:32:17.767] error: *** JOB 10027920 ON amr-189 CANCELLED AT 2026-06-14T19:32:17 DUE to SIGNAL Terminated ***
+[2026-06-14T19:32:17.896] error: *** STEP 10027920.0 ON amr-189 CANCELLED AT 2026-06-14T19:32:17 DUE to SIGNAL Terminated ***
+srun: error: amr-195: tasks 4-5: Terminated
+srun: error: amr-207: tasks 99-100,107: Terminated
+srun: error: amr-230: tasks 229,232,236,248,256: Terminated
+srun: error: amr-199: tasks 65-67: Terminated
+srun: error: amr-203: tasks 83,87,91,93: Terminated
+srun: error: amr-196: tasks 19,23,25,29,34,52-53: Terminated

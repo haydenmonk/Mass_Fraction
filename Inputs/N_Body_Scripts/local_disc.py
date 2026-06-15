@@ -4,10 +4,10 @@ import sys
 
 def create_sim(m_planet, a_planet,
                N_particles, r_min, r_max,
-               m_star=1.0, i_difference=0.1,
+               m_star=1.0, i_difference=0.0,
                seed=10):
     
-    rng = np.random.default_rng(seed)
+    rng = np.random.default_rng()
     
     sim = rebound.Simulation()
     sim.units=('yr', 'AU', 'Msun')
@@ -25,8 +25,11 @@ def create_sim(m_planet, a_planet,
         omega = rng.uniform(0, 2*np.pi)
         M = rng.uniform(0, 2*np.pi)
         sim.add(m=0, a=a, e=e, inc=inc, Omega=Omega, omega=omega, M=M)
+        print(M, Omega)
     sim.move_to_com()
     sim.integrator = 'ias15'
+    sim.boundary = 'open'
+    sim.configure_box(3000.0)
     return sim
 
 def hill_radius(m_planet, a_planet, m_star=1.0):
@@ -43,15 +46,27 @@ if __name__ == "__main__":
         task_id = "0"
         bash_id = "0"
     # task_id_int = int(task_id)
-    print(task_id)
+
 
     file_prefix = f"{job_id}-{task_id}-{bash_id}"
     output_directory = '/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Outputs/Ejection_Results'
 
     output_file=output_directory + f"/{file_prefix}_ejection_results.txt"
 
-    m_planet=1e-3
-    a_planet=1.0
+
+    grid_dim=[1,1]
+    m_planet_arr=3.00274e-6*np.logspace(2, 3.5, 3*grid_dim[0])
+    a_planet_arr=np.logspace(0.5, 1.6, 3*grid_dim[1])
+
+    A, M = np.meshgrid(a_planet_arr, m_planet_arr, indexing="ij")
+    combos = np.column_stack([A.ravel(), M.ravel()])
+    print(combos)
+    
+    param_index=int(task_id) % combos.shape[0]
+    a_planet, m_planet = combos[param_index]
+
+    # m_planet=1e-3
+    # a_planet=1.0
     N_particles=1
     HR=hill_radius(m_planet, a_planet)
     r_min = a_planet - 5*HR
@@ -63,14 +78,15 @@ if __name__ == "__main__":
         m_planet, a_planet,
         N_particles, r_min, r_max
     )
-    sim.boundary = 'open'
-    sim.configure_box(10_000.0)
+    
     particle_hash = sim.particles[2].hash.value
     planet_hash = sim.particles[1].hash.value
 
     sim.integrate(tmax)
 
-
+    print(len(sim.particles))
+    particle=sim.particles[-1]
+    print(particle.x, particle.y, particle.z)
     if sim.particles[-1].hash.value == planet_hash:
         result=0
     elif sim.particles[-1].hash.value == particle_hash:
@@ -79,7 +95,7 @@ if __name__ == "__main__":
         result=2
 
     with open(output_file, "w") as f:
-        f.write(f"{result}\n")
+        f.write(f"{m_planet},{a_planet},{result}\n")
     
 
 

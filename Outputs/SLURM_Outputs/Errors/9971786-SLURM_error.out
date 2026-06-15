@@ -1,0 +1,5 @@
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+[2026-06-14T13:18:05.875] error: *** JOB 9971829 ON amr-190 CANCELLED AT 2026-06-14T13:18:05 DUE to SIGNAL Terminated ***
+[2026-06-14T13:18:05.874] error: *** JOB 9975548 ON amr-190 CANCELLED AT 2026-06-14T13:18:05 DUE to SIGNAL Terminated ***
+srun: error: amr-200: task 120: Terminated
+srun: Force Terminated StepId=9975548.0
