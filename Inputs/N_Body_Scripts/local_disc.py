@@ -4,7 +4,7 @@ import sys
 
 def create_sim(m_planet, a_planet,
                N_particles, r_min, r_max,
-               m_star=1.0, i_difference=0.0,
+               m_star=1.0, i_difference=0.1,
                seed=10):
     
     rng = np.random.default_rng()
@@ -29,7 +29,7 @@ def create_sim(m_planet, a_planet,
     sim.move_to_com()
     sim.integrator = 'ias15'
     sim.boundary = 'open'
-    sim.configure_box(3000.0)
+    sim.configure_box(10000.0)
     return sim
 
 def hill_radius(m_planet, a_planet, m_star=1.0):
@@ -72,7 +72,8 @@ if __name__ == "__main__":
     r_min = a_planet - 5*HR
     r_max = a_planet + 5*HR
 
-    tmax=1.5e6
+    period=a_planet**(3/2)
+    tmax=2_000_000*period
     
     sim=create_sim(
         m_planet, a_planet,

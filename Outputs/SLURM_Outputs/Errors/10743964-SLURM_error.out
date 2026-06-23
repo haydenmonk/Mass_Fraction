@@ -1,0 +1,4 @@
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+[2026-06-23T10:15:13.789] error: *** JOB 10785828 ON skl-072 CANCELLED AT 2026-06-23T10:15:13 DUE to SIGNAL Terminated ***
+[2026-06-23T10:15:13.802] error: *** STEP 10785828.0 ON skl-072 CANCELLED AT 2026-06-23T10:15:13 DUE to SIGNAL Terminated ***
+srun: error: skl-077: task 144: Terminated
