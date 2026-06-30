@@ -1,0 +1,15 @@
+Lmod has detected the following error: The following module(s) could not be
+loaded: "gateway"
+
+Note that you are currently using a gateway node which provides very limited
+access to software. Please use a development node to load software instead:
+https://docs.icer.msu.edu/development_nodes/
+
+If you are trying to load a module that requires a gateway node, please check
+the spelling or version number. Also try "module spider ..."
+
+
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+[2026-06-30T01:52:38.329] error: *** JOB 11279945 ON skl-035 CANCELLED AT 2026-06-30T01:52:38 DUE to SIGNAL Terminated ***
+[2026-06-30T01:52:38.330] error: *** STEP 11279945.0 ON skl-035 CANCELLED AT 2026-06-30T01:52:38 DUE to SIGNAL Terminated ***
+srun: error: skl-048: task 36: Terminated

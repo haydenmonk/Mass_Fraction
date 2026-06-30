@@ -1,0 +1,10 @@
+Lmod has detected the following error: The following module(s) could not be
+loaded: "gateway"
+
+Note that you are currently using a gateway node which provides very limited
+access to software. Please use a development node to load software instead:
+https://docs.icer.msu.edu/development_nodes/
+
+If you are trying to load a module that requires a gateway node, please check
+the spelling or version number. Also try "module spider ..."
+

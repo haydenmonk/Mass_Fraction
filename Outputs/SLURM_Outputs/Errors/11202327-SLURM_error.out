@@ -1,0 +1,840 @@
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+    sim=create_sim(
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+  File "_common.pyx", line 637, in numpy.random._common.cont
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 637, in numpy.random._common.cont
+    a = rng.uniform(r_min, r_max)
+ValueError: high - low < 0
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+ValueError: high - low < 0
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+ValueError: high - low < 0
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+ValueError: high - low < 0
+ValueError: high - low < 0
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+Traceback (most recent call last):
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    a = rng.uniform(r_min, r_max)
+    a = rng.uniform(r_min, r_max)
+    a = rng.uniform(r_min, r_max)
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    sim=create_sim(
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+    a = rng.uniform(r_min, r_max)
+    a = rng.uniform(r_min, r_max)
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    sim=create_sim(
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    a = rng.uniform(r_min, r_max)
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+  File "_common.pyx", line 637, in numpy.random._common.cont
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+  File "_common.pyx", line 637, in numpy.random._common.cont
+    sim=create_sim(
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+  File "_common.pyx", line 637, in numpy.random._common.cont
+ValueError: high - low < 0
+ValueError: high - low < 0
+ValueError: high - low < 0
+ValueError: high - low < 0
+ValueError: high - low < 0
+ValueError: high - low < 0
+ValueError: high - low < 0
+ValueError: high - low < 0
+ValueError: high - low < 0
+ValueError: high - low < 0
+ValueError: high - low < 0
+  File "_common.pyx", line 637, in numpy.random._common.cont
+ValueError: high - low < 0
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+ValueError: high - low < 0
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+ValueError: high - low < 0
+ValueError: high - low < 0
+ValueError: high - low < 0
+ValueError: high - low < 0
+ValueError: high - low < 0
+srun: error: amr-236: tasks 143-146,149: Exited with exit code 1
+srun: error: amr-211: tasks 0-1,4-5,10,12,16,18-21,23-24,28,31,33,36-37: Exited with exit code 1
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+    a = rng.uniform(r_min, r_max)
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+  File "_common.pyx", line 637, in numpy.random._common.cont
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+    a = rng.uniform(r_min, r_max)
+    a = rng.uniform(r_min, r_max)
+    sim=create_sim(
+        ^^^^^^^^^^^
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+    sim=create_sim(
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+    a = rng.uniform(r_min, r_max)
+    sim=create_sim(
+        ^^^^^^^^^^^
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+    a = rng.uniform(r_min, r_max)
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+  File "_common.pyx", line 637, in numpy.random._common.cont
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+ValueError: high - low < 0
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+    a = rng.uniform(r_min, r_max)
+  File "_common.pyx", line 637, in numpy.random._common.cont
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+ValueError: high - low < 0
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+ValueError: high - low < 0
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+ValueError: high - low < 0
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+    a = rng.uniform(r_min, r_max)
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+ValueError: high - low < 0
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+ValueError: high - low < 0
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+ValueError: high - low < 0
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+ValueError: high - low < 0
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    a = rng.uniform(r_min, r_max)
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+ValueError: high - low < 0
+ValueError: high - low < 0
+ValueError: high - low < 0
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+ValueError: high - low < 0
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 637, in numpy.random._common.cont
+ValueError: high - low < 0
+ValueError: high - low < 0
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+ValueError: high - low < 0
+ValueError: high - low < 0
+  File "_common.pyx", line 637, in numpy.random._common.cont
+ValueError: high - low < 0
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+ValueError: high - low < 0
+ValueError: high - low < 0
+ValueError: high - low < 0
+ValueError: high - low < 0
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+ValueError: high - low < 0
+  File "_common.pyx", line 637, in numpy.random._common.cont
+ValueError: high - low < 0
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+ValueError: high - low < 0
+  File "_common.pyx", line 637, in numpy.random._common.cont
+ValueError: high - low < 0
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+ValueError: high - low < 0
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+ValueError: high - low < 0
+  File "_common.pyx", line 637, in numpy.random._common.cont
+ValueError: high - low < 0
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+ValueError: high - low < 0
+ValueError: high - low < 0
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+ValueError: high - low < 0
+ValueError: high - low < 0
+ValueError: high - low < 0
+ValueError: high - low < 0
+ValueError: high - low < 0
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+ValueError: high - low < 0
+ValueError: high - low < 0
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+ValueError: high - low < 0
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+  File "_common.pyx", line 637, in numpy.random._common.cont
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+  File "_common.pyx", line 637, in numpy.random._common.cont
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+ValueError: high - low < 0
+ValueError: high - low < 0
+    a = rng.uniform(r_min, r_max)
+    sim=create_sim(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+  File "_common.pyx", line 637, in numpy.random._common.cont
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 637, in numpy.random._common.cont
+ValueError: high - low < 0
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+  File "_common.pyx", line 637, in numpy.random._common.cont
+ValueError: high - low < 0
+ValueError: high - low < 0
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+ValueError: high - low < 0
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    sim=create_sim(
+        ^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+  File "_common.pyx", line 637, in numpy.random._common.cont
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+  File "_common.pyx", line 637, in numpy.random._common.cont
+    a = rng.uniform(r_min, r_max)
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+ValueError: high - low < 0
+  File "_common.pyx", line 637, in numpy.random._common.cont
+    a = rng.uniform(r_min, r_max)
+ValueError: high - low < 0
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 637, in numpy.random._common.cont
+ValueError: high - low < 0
+ValueError: high - low < 0
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+ValueError: high - low < 0
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 80, in <module>
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+    sim=create_sim(
+        ^^^^^^^^^^^
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py", line 23, in create_sim
+  File "_common.pyx", line 637, in numpy.random._common.cont
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+    a = rng.uniform(r_min, r_max)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "numpy/random/_generator.pyx", line 1096, in numpy.random._generator.Generator.uniform
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+  File "_common.pyx", line 637, in numpy.random._common.cont
+ValueError: high - low < 0
+  File "_common.pyx", line 435, in numpy.random._common.check_constraint
+ValueError: high - low < 0
+ValueError: high - low < 0
+ValueError: high - low < 0
+srun: error: amr-212: tasks 48-49,51,57,60-61,63-65,68,71,75,77-79,81-88,90-95,97,102-104,106-107,111,114,117,120-121,123-126,128-129,131,133-135,137-139: Exited with exit code 1
+ 1

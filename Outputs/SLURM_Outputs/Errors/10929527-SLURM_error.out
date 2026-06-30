@@ -1,0 +1,753 @@
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+    start_time=time.monotic()
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+               ^^^^^^^^^^^^
+    start_time=time.monotic()
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+               ^^^^^^^^^^^^
+    start_time=time.monotic()
+    start_time=time.monotic()
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+srun: error: amr-199: tasks 0-5: Exited with exit code 1
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+    start_time=time.monotic()
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+               ^^^^^^^^^^^^
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+    start_time=time.monotic()
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+               ^^^^^^^^^^^^
+               ^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+    start_time=time.monotic()
+    start_time=time.monotic()
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+               ^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+               ^^^^^^^^^^^^
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+    start_time=time.monotic()
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+    start_time=time.monotic()
+    start_time=time.monotic()
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+    start_time=time.monotic()
+    start_time=time.monotic()
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+    start_time=time.monotic()
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+               ^^^^^^^^^^^^
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+srun: error: amr-201: tasks 6-52: Exited with exit code 1
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+    start_time=time.monotic()
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+    start_time=time.monotic()
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+    start_time=time.monotic()
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+    start_time=time.monotic()
+    start_time=time.monotic()
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+               ^^^^^^^^^^^^
+    start_time=time.monotic()
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 87, in <module>
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+    start_time=time.monotic()
+               ^^^^^^^^^^^^
+AttributeError: module 'time' has no attribute 'monotic'. Did you mean: 'monotonic'?
+srun: error: amr-202: tasks 53-149: Exited with exit code 1

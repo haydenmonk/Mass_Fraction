@@ -1,7 +1,7 @@
 #!/bin/bash --login
 
 #SBATCH --job-name=mass_fraction_sim          # Name of Job. Its whatever you want to call it.  
-#SBATCH --array=0-640
+#SBATCH --array=0-199
 #SBATCH --cpus-per-task=1          
 #SBATCH --ntasks=150                      #Dang suggest 128?    # Number of tasks. This is also the number of cores  # SLURM defaults to 1 but we specify anyway
 
@@ -25,7 +25,9 @@ conda activate comets
 
 PARAM_FILE="/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/Parameter Files/Parameter_CSVs/m_a_parameter_values.csv"
 
-srun bash -c 'python -u /mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py "$1" "$2" "$BASHPID" "$3"' _ \
+srun bash -c 'python -u /mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/resonance_regime.py "$1" "$2" "$BASHPID" "$3"' _ \
     "$SLURM_ARRAY_JOB_ID" \
     "$SLURM_ARRAY_TASK_ID" \
     "$PARAM_FILE"
+
+
