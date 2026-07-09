@@ -1,0 +1,756 @@
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+TypeError: cannot unpack non-iterable float object
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+Traceback (most recent call last):
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+        ^^^^^^^^^
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+        ^^^^^^^^^
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+    for mass,tmax in tmax_mass_dict:
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+        ^^^^^^^^^
+    for mass,tmax in tmax_mass_dict:
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+        ^^^^^^^^^
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+        ^^^^^^^^^
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+        ^^^^^^^^^
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+    for mass,tmax in tmax_mass_dict:
+TypeError: cannot unpack non-iterable float object
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+srun: error: skl-085: tasks 138-149: Exited with exit code 1
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+TypeError: cannot unpack non-iterable float object
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+    for mass,tmax in tmax_mass_dict:
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+TypeError: cannot unpack non-iterable float object
+        ^^^^^^^^^
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+TypeError: cannot unpack non-iterable float object
+Traceback (most recent call last):
+  File "/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Inputs/N_Body_Scripts/local_disc.py", line 99, in <module>
+    for mass,tmax in tmax_mass_dict:
+        ^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+srun: error: skl-059: tasks 93-117: Exited with exit code 1
+srun: error: skl-056: tasks 0-29: Exited with exit code 1
+srun: error: skl-057: tasks 30-58: Exited with exit code 1
+srun: error: skl-058: tasks 59-92: Exited with exit code 1
+srun: error: skl-060: tasks 118-137: Exited with exit code 1

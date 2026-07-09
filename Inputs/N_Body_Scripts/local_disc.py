@@ -55,13 +55,23 @@ if __name__ == "__main__":
     output_directory = '/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Outputs/Ejection_Results'
 
     output_file=output_directory + f"/{job_id}_ejection_results.txt"
+    archive_filename='/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Outputs/Sim_Archives/' + f"{file_prefix}_sim.bin"
 
+    tmax_mass_dict={
+        0.00030027: 4_000_000,
+        0.00071206: 1_000_000,
+        0.00168856: 400_000,
+        0.00400422: 180_000,
+        0.0094955: 100_000,
+    }
 
-    m_planet_arr=3.00274e-6*np.logspace(2, 3.5, 5)
-    mass_index=int(task_id) % len(m_planet_arr)
-    m_planet = m_planet_arr[mass_index]
+    tmax_mass_list=list(tmax_mass_dict.items())
 
-    tmax_index=int(task_id) // (20*len(m_planet_arr))
+    # m_planet_arr=3.00274e-6*np.logspace(2, 3.5, 5)
+    parameter_index=int(task_id) % len(tmax_mass_list)
+    m_planet,tmax = tmax_mass_list[parameter_index]
+
+    # tmax_index=int(task_id) // (20*len(m_planet_arr))
 
     # m_planet=1e-3
     # a_planet=1.0
@@ -70,26 +80,21 @@ if __name__ == "__main__":
     r_min = 1.0 - 5*HR
     r_max = 1.0 + 5*HR
 
+    # tmax_arr=np.linspace(100, 200_000, 20)
 
-
-
-    tmax_arr=np.linspace(100, 200_000, 20)
     #tmax=tmax_arr[tmax_index]
-    
+
+    t_arr=np.arange(0,tmax,1e3)
     sim=create_sim(
         m_planet,
         N_particles, r_min, r_max
     )
-
-    archive_filename='/mnt/home/monkhayd/Simulations/Ejection_modeling/Mass_Fraction/Outputs/Sim_Archives/' + f"{file_prefix}_sim.bin"
     
     particle_hash = sim.particles[2].hash.value
     planet_hash = sim.particles[1].hash.value
     start_time=time.monotonic()
-    
-    previous_frac=0
-    for tmax in tmax_arr:
-        sim.integrate(tmax)
+    for t in t_arr:
+        sim.integrate(t)
         
         end_time=time.monotonic()
 
@@ -99,9 +104,7 @@ if __name__ == "__main__":
 
 
 
-        print(len(sim.particles))
-        particle=sim.particles[-1]
-        print(particle.x, particle.y, particle.z)
+
         if sim.particles[-1].hash.value == planet_hash:
             result=0
         elif sim.particles[-1].hash.value == particle_hash:
@@ -115,10 +118,10 @@ if __name__ == "__main__":
         with open(output_file, "a") as f:
             fcntl.flock(f, fcntl.LOCK_EX)
             try:
-                f.write(f"{m_planet},{result},{tmax}\n")
+                f.write(f"{m_planet},{result},{t}\n")
                 f.flush()
             finally:
                 fcntl.flock(f, fcntl.LOCK_UN)
-    
+
 
 
