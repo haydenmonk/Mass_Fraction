@@ -93,32 +93,43 @@ if __name__ == "__main__":
     particle_hash = sim.particles[2].hash.value
     planet_hash = sim.particles[1].hash.value
     start_time=time.monotonic()
+    result=0
     for t in t_arr:
-        sim.integrate(t)
-        
-        end_time=time.monotonic()
+        if result==0:
+            sim.integrate(t)
 
-        elapsed_time=end_time-start_time
-        if elapsed_time > (60*60*6):
-            sim.save_to_file(archive_filename, walltime=(60*30))
+            
+            planet_centric_e=sim.particles[2].orbit(primary=sim.particles[1]).e
+            if planet_centric_e < 1.0:
+                sim.integrate(t+1)
+                planet_centric_e_2=sim.particles[2].orbit(primary=sim.particles[1]).e
+                if planet_centric_e_2 < 1.0:
+                    result=3
+            
+            end_time=time.monotonic()
+
+            elapsed_time=end_time-start_time
+            if elapsed_time > (60*60*6):
+                sim.save_to_file(archive_filename, walltime=(60*30))
+            
 
 
 
 
-        if sim.particles[-1].hash.value == planet_hash:
-            result=0
-        elif sim.particles[-1].hash.value == particle_hash:
-            result=1
-        else:
-            result=2
-
+            if sim.particles[-1].hash.value == planet_hash:
+                result=0
+            elif sim.particles[-1].hash.value == particle_hash:
+                result=1
+            else:
+                result=2
+  
         # with open(output_file, "w") as f:
         #     f.write(f"{m_planet},{result},{tmax}\n")
 
         with open(output_file, "a") as f:
             fcntl.flock(f, fcntl.LOCK_EX)
             try:
-                f.write(f"{m_planet},{result},{t}\n")
+                f.write(f"{m_planet},{result},{t}, {bash_id}\n")
                 f.flush()
             finally:
                 fcntl.flock(f, fcntl.LOCK_UN)
