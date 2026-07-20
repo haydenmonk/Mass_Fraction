@@ -3,7 +3,7 @@
 #SBATCH --job-name=mass_fraction_sim          # Name of Job. Its whatever you want to call it.  
 #SBATCH --array=0-199
 #SBATCH --cpus-per-task=1          
-#SBATCH --ntasks=15                      #Dang suggest 128?    # Number of tasks. This is also the number of cores  # SLURM defaults to 1 but we specify anyway
+#SBATCH --ntasks=2                      #Dang suggest 128?    # Number of tasks. This is also the number of cores  # SLURM defaults to 1 but we specify anyway
 
 ## Use nodes keyword
 ## also ntasks-per-node

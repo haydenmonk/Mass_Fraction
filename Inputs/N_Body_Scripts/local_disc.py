@@ -38,6 +38,15 @@ def create_sim(m_planet,
 def hill_radius(m_planet, a_planet=1.0, m_star=1.0):
     return a_planet * (m_planet/(3*m_star))**(1/3)
 
+def write_results(output_file, m_planet, result, t, bash_id):
+    with open(output_file, "a") as f:
+            fcntl.flock(f, fcntl.LOCK_EX)
+            try:
+                f.write(f"{m_planet},{result},{t}, {bash_id}\n")
+                f.flush()
+            finally:
+                fcntl.flock(f, fcntl.LOCK_UN)
+
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         job_id = sys.argv[1]
@@ -93,10 +102,22 @@ if __name__ == "__main__":
     particle_hash = sim.particles[2].hash.value
     planet_hash = sim.particles[1].hash.value
     start_time=time.monotonic()
-    result=0
+    result=1
     for t in t_arr:
-        if result==0:
+        if result==1:
             sim.integrate(t)
+
+            if sim.particles[-1].hash.value == planet_hash:
+                result=0
+                write_results(output_file, m_planet, result, t, bash_id)
+                continue
+            elif sim.particles[-1].hash.value != particle_hash:
+                result=2
+                write_results(output_file, m_planet, result, t, bash_id)
+                continue
+            # elif sim.particles[-1].hash.value == particle_hash:
+            #     result=1
+            
 
             
             planet_centric_e=sim.particles[2].orbit(primary=sim.particles[1]).e
@@ -111,28 +132,15 @@ if __name__ == "__main__":
             elapsed_time=end_time-start_time
             if elapsed_time > (60*60*6):
                 sim.save_to_file(archive_filename, walltime=(60*30))
+
+        write_results(output_file, m_planet, result, t, bash_id)
+
             
-
-
-
-
-            if sim.particles[-1].hash.value == planet_hash:
-                result=0
-            elif sim.particles[-1].hash.value == particle_hash:
-                result=1
-            else:
-                result=2
   
         # with open(output_file, "w") as f:
         #     f.write(f"{m_planet},{result},{tmax}\n")
 
-        with open(output_file, "a") as f:
-            fcntl.flock(f, fcntl.LOCK_EX)
-            try:
-                f.write(f"{m_planet},{result},{t}, {bash_id}\n")
-                f.flush()
-            finally:
-                fcntl.flock(f, fcntl.LOCK_UN)
+        
 
 
 
