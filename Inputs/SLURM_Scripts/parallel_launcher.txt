@@ -1,0 +1,51 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+
+# Replace these with the corresponding paths on your local computer.
+PYTHON_SCRIPT="/Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Inputs/N_Body_Scripts/local_disc_lm_2.py"
+PARAM_FILE="this should be superfluous"
+
+# Equivalent to:
+# SBATCH --array=0-199
+FIRST_TASK=0
+LAST_TASK=99999
+
+# Maximum number of local_disc.py processes running simultaneously.
+MAX_CONCURRENT=8
+
+# Stand-in for SLURM_ARRAY_JOB_ID.
+# Every process launched by this run receives the same job ID.
+LOCAL_JOB_ID="local_$(date +%Y%m%d_%H%M%S)"
+
+TOTAL_JOBS=$((LAST_TASK - FIRST_TASK + 1))
+
+seq "$FIRST_TASK" "$LAST_TASK" |
+parallel \
+    --jobs "$MAX_CONCURRENT" \
+    --line-buffer \
+    "bash -c '
+        job_number=\$5
+        total_jobs=\$6
+
+        if (( job_number % 100 == 0 || job_number == total_jobs )); then
+            percent=\$((100 * job_number / total_jobs))
+            printf \"Started: %d/%d (%d%%)\\n\" \
+                \"\$job_number\" \
+                \"\$total_jobs\" \
+                \"\$percent\"
+        fi
+
+        python -u \"\$1\" \
+            \"\$2\" \
+            \"\$3\" \
+            \"\$BASHPID\" \
+            \"\$4\"
+    ' _ \
+    \"$PYTHON_SCRIPT\" \
+    \"$LOCAL_JOB_ID\" \
+    {} \
+    \"$PARAM_FILE\" \
+    {#} \
+    \"$TOTAL_JOBS\""
