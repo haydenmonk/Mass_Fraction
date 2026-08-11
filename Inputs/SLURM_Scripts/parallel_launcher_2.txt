@@ -1,0 +1,182 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+
+# Replace these with the corresponding paths on your local computer.
+PYTHON_SCRIPT="/Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Inputs/N_Body_Scripts/local_disc_lm_2.py"
+PARAM_FILE="this should be superfluous"
+
+# Equivalent to:
+# SBATCH --array=0-99999
+FIRST_TASK=0
+LAST_TASK=99999
+
+# Maximum number of local_disc.py processes running simultaneously.
+MAX_CONCURRENT=8
+
+# Stand-in for SLURM_ARRAY_JOB_ID.
+# Every process launched by this run receives the same job ID.
+LOCAL_JOB_ID="local_$(date +%Y%m%d_%H%M%S)"
+
+TOTAL_JOBS=$((LAST_TASK - FIRST_TASK + 1))
+
+# Create one directory for the logs from this launcher run.
+LOG_DIR="/Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Outputs/GNUParallel_Outputs/"
+mkdir -p "$LOG_DIR"
+
+# Human-readable combined output from every task.
+OUTPUT_LOG="/Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Outputs/GNUParallel_Outputs/${LOCAL_JOB_ID}_output.log"
+
+# Machine-readable GNU Parallel job information.
+JOB_LOG="/Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Outputs/GNUParallel_Outputs/${LOCAL_JOB_ID}_joblog.tsv"
+
+
+# Record the start of the entire Parallel run.
+overall_start_epoch=$(date +%s)
+overall_start_time=$(date "+%Y-%m-%d %H:%M:%S")
+
+printf "PARALLEL START | local_job_id=%s | tasks=%d-%d | total=%d | max_concurrent=%d | time=%s\n" \
+    "$LOCAL_JOB_ID" \
+    "$FIRST_TASK" \
+    "$LAST_TASK" \
+    "$TOTAL_JOBS" \
+    "$MAX_CONCURRENT" \
+    "$overall_start_time" |
+tee "$OUTPUT_LOG"
+
+
+# Temporarily disable automatic exit so that the final runtime is still
+# printed if one or more Parallel jobs fail.
+set +e
+
+seq "$FIRST_TASK" "$LAST_TASK" |
+parallel \
+    --jobs "$MAX_CONCURRENT" \
+    --line-buffer \
+    --joblog "$JOB_LOG" \
+    "bash -c '
+        python_script=\$1
+        local_job_id=\$2
+        task_id=\$3
+        param_file=\$4
+        job_number=\$5
+        total_jobs=\$6
+
+        worker_pid=\$BASHPID
+        task_start_epoch=\$(date +%s)
+        task_start_time=\$(date \"+%Y-%m-%d %H:%M:%S\")
+
+        printf \"START | job=%d/%d | task=%s | pid=%d | time=%s\n\" \
+            \"\$job_number\" \
+            \"\$total_jobs\" \
+            \"\$task_id\" \
+            \"\$worker_pid\" \
+            \"\$task_start_time\"
+
+        # Preserve the progress report from the original launcher.
+        if (( job_number % 100 == 0 || job_number == total_jobs )); then
+            percent=\$((100 * job_number / total_jobs))
+
+            printf \"START PROGRESS | %d/%d (%d%%)\n\" \
+                \"\$job_number\" \
+                \"\$total_jobs\" \
+                \"\$percent\"
+        fi
+
+        # Python receives the same arguments and in the same order as before:
+        #
+        # sys.argv[1] = local job ID
+        # sys.argv[2] = task ID
+        # sys.argv[3] = Bash worker PID
+        # sys.argv[4] = parameter file
+        python -u \"\$python_script\" \
+            \"\$local_job_id\" \
+            \"\$task_id\" \
+            \"\$worker_pid\" \
+            \"\$param_file\"
+
+        exit_code=\$?
+
+        task_end_epoch=\$(date +%s)
+        task_end_time=\$(date \"+%Y-%m-%d %H:%M:%S\")
+        task_runtime_seconds=\$((task_end_epoch - task_start_epoch))
+
+        task_hours=\$((task_runtime_seconds / 3600))
+        task_minutes=\$(((task_runtime_seconds % 3600) / 60))
+        task_seconds=\$((task_runtime_seconds % 60))
+
+        if (( exit_code == 0 )); then
+            status=\"COMPLETED\"
+        else
+            status=\"FAILED\"
+        fi
+
+        printf \"FINISH | job=%d/%d | task=%s | pid=%d | status=%s | exit=%d | runtime=%02d:%02d:%02d | time=%s\n\" \
+            \"\$job_number\" \
+            \"\$total_jobs\" \
+            \"\$task_id\" \
+            \"\$worker_pid\" \
+            \"\$status\" \
+            \"\$exit_code\" \
+            \"\$task_hours\" \
+            \"\$task_minutes\" \
+            \"\$task_seconds\" \
+            \"\$task_end_time\"
+
+        exit \"\$exit_code\"
+    ' _ \
+    \"$PYTHON_SCRIPT\" \
+    \"$LOCAL_JOB_ID\" \
+    {} \
+    \"$PARAM_FILE\" \
+    {#} \
+    \"$TOTAL_JOBS\"" \
+    2>&1 |
+tee -a "$OUTPUT_LOG"
+
+# The pipeline contains:
+#   0: seq
+#   1: parallel
+#   2: tee
+pipeline_status=("${PIPESTATUS[@]}")
+
+set -e
+
+seq_exit_code=${pipeline_status[0]}
+parallel_exit_code=${pipeline_status[1]}
+tee_exit_code=${pipeline_status[2]}
+
+
+# Determine the final launcher exit status.
+if (( seq_exit_code != 0 )); then
+    launcher_exit_code=$seq_exit_code
+elif (( parallel_exit_code != 0 )); then
+    launcher_exit_code=$parallel_exit_code
+else
+    launcher_exit_code=$tee_exit_code
+fi
+
+
+# Calculate the total wall-clock runtime.
+overall_end_epoch=$(date +%s)
+overall_end_time=$(date "+%Y-%m-%d %H:%M:%S")
+overall_runtime_seconds=$((overall_end_epoch - overall_start_epoch))
+
+overall_hours=$((overall_runtime_seconds / 3600))
+overall_minutes=$(((overall_runtime_seconds % 3600) / 60))
+overall_seconds=$((overall_runtime_seconds % 60))
+
+printf "PARALLEL FINISH | local_job_id=%s | exit=%d | runtime=%02d:%02d:%02d | time=%s\n" \
+    "$LOCAL_JOB_ID" \
+    "$launcher_exit_code" \
+    "$overall_hours" \
+    "$overall_minutes" \
+    "$overall_seconds" \
+    "$overall_end_time" |
+tee -a "$OUTPUT_LOG"
+
+printf "Combined output: %s\n" "$OUTPUT_LOG"
+printf "GNU Parallel job log: %s\n" "$JOB_LOG"
+
+exit "$launcher_exit_code"
