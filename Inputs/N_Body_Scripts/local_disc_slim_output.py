@@ -5,6 +5,39 @@ import time
 import fcntl
 import os
 
+from ctypes import cdll, c_double, POINTER, byref
+
+clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+
+# function to get the planet object at a given time t
+clib.get_planet_cartesian.argtypes = [
+    c_double,
+    POINTER(c_double),
+    POINTER(c_double),
+    POINTER(c_double),
+    POINTER(c_double),
+    POINTER(c_double),
+    POINTER(c_double),
+]
+xp, yp, zp, vxp, vyp, vzp = c_double(), c_double(), c_double(), c_double(), c_double(), c_double()
+clib.get_planet_cartesian.restype = None
+
+def get_planet(t, m_planet):
+    clib.get_planet_cartesian(
+                t,
+                byref(xp), byref(yp), byref(zp),
+                byref(vxp), byref(vyp), byref(vzp),
+            )
+    px, py, pz = xp.value, yp.value, zp.value
+    pvx, pvy, pvz = vxp.value, vyp.value, vzp.value
+
+    planet = rebound.Particle(x=px, y=py, z=pz,
+        vx=pvx, vy=pvy, vz=pvz,
+        m=m_planet
+    )
+
+    return planet
+
 def create_sim(m_planet, 
                N_particles, r_min, r_max, a_planet=1.0,
                m_star=1.0, i_difference=0.1,
@@ -14,11 +47,8 @@ def create_sim(m_planet,
     
     sim = rebound.Simulation()
     sim.units=('yr', 'AU', 'Msun')
-    sim.add(m=m_star, hash='star')
-    sim.add(m=m_planet, a=a_planet, hash='planet')
-
-    sim.N_active = sim.N
-
+    sim.add(m=m_star)
+    sim.add(m=m_planet, a=a_planet, primary=sim.particles[0])
 
     for i in range(N_particles):
         a = rng.uniform(r_min, r_max)
@@ -28,8 +58,29 @@ def create_sim(m_planet,
         omega = rng.uniform(0, 2*np.pi)
         M = rng.uniform(0, 2*np.pi)
         sim.add(m=0, a=a, e=e, inc=inc, Omega=Omega, omega=omega, M=M)
-
+        print(M, Omega)
     sim.move_to_com()
+
+    # remove star and planet
+    sim.remove(0)
+    sim.remove(0)
+
+    # this force will act as the star and planet on the particles    
+    # set the planet mass
+    clib.setup_force(c_double(a_planet), # planet a
+                     c_double(0.0),      # ecc
+                     c_double(0.0),      # inc
+                     c_double(0.0),      # omega
+                     c_double(0.0),      # Omega
+                     c_double(0.0),      # M0
+                     c_double(sim.t),    # time
+                     c_double(m_planet), # planet mass
+                     c_double(m_star),   # star mass
+                     c_double(sim.G)     # gravitational constant
+    )
+    sim.additional_forces = clib.planet_star_force
+
+
     sim.integrator = 'ias15'
     sim.boundary = 'open'
     sim.configure_box(10000.0)
@@ -105,8 +156,6 @@ if __name__ == "__main__":
         N_particles, r_min, r_max
     )
     
-    particle_hash = sim.particles[2].hash.value
-    planet_hash = sim.particles[1].hash.value
     start_time=time.monotonic()
     archive_started=False
 
@@ -114,19 +163,16 @@ if __name__ == "__main__":
 
         sim.integrate(t)
 
-        if sim.particles[-1].hash.value == planet_hash:
+        if len(sim.particles) == 0:
             write_results(output_file, m_planet, t, bash_id, 'Ejected')
             break
-  
-        # elif sim.particles[-1].hash.value == particle_hash:
-        #     result=1
-        
 
-        
-        planet_centric_e=sim.particles[2].orbit(primary=sim.particles[1]).e
+        planet_centric_e=sim.particles[0].orbit(primary=get_planet(sim.t, m_planet)).e
+
         if planet_centric_e < 1.0:
             sim.integrate(t+1)
-            planet_centric_e_2=sim.particles[2].orbit(primary=sim.particles[1]).e
+            
+            planet_centric_e_2=sim.particles[0].orbit(primary=get_planet(sim.t, m_planet)).e
             if planet_centric_e_2 < 1.0:
                 write_results(output_file, m_planet, t, bash_id, 'Captured')
                 break
