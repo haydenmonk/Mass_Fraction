@@ -60,9 +60,9 @@ if __name__ == "__main__":
     task_id_int = int(task_id)
 
     file_prefix = f"{job_id}-{task_id}-{bash_id}"
-    output_directory = '/scratch/group/p.phy260085.000/mass_fraction_hayden/Outputs/Ejection_Results'
+    output_directory = '/scratch/group/p.phy260085.000/Mass_Fraction/Outputs/Ejection_Results'
     output_file=output_directory + f"/{job_id}_ejection_results.txt"
-    archive_filename='/scratch/group/p.phy260085.000/mass_fraction_hayden/Outputs/Sim_Archive_Files/' + f"{file_prefix}_sim.bin"
+    archive_filename='/scratch/group/p.phy260085.000/Mass_Fraction/Outputs/Sim_Archives/' + f"{file_prefix}_sim.bin"
 
     tmax_mass_dict={
         0.000030027: 10_000_000,
