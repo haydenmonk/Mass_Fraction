@@ -1,0 +1,12 @@
+name: comets
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11.5
+  - numpy=1.26.4
+  - scipy=1.17.0
+  - pandas=2.3.3
+  - matplotlib=3.7.2
+  - rebound=4.4.1
