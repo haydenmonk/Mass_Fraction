@@ -4,6 +4,9 @@ import sys
 import time
 import fcntl
 import os
+from ctypes import cdll, pointer, POINTER, c_double, c_int
+
+clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
 
 def create_sim(m_planet, 
                N_particles, r_min, r_max, a_planet=1.0,
@@ -30,6 +33,15 @@ def create_sim(m_planet,
         sim.add(m=0, a=a, e=e, inc=inc, Omega=Omega, omega=omega, M=M)
         print(M, Omega)
     sim.move_to_com()
+
+    # remove star and planet
+    sim.remove(0)
+    sim.remove(0)
+
+    # this force will act as the star and planet on the particles    
+    sim.additional_forces = clib.planet_star_force
+
+
     sim.integrator = 'ias15'
     sim.boundary = 'open'
     sim.configure_box(10000.0)
@@ -98,7 +110,9 @@ if __name__ == "__main__":
         m_planet,
         N_particles, r_min, r_max
     )
-    
+
+
+    # NEED TO FIX THIS BECAUSE THERE ARE NO MORE PLANET/STAR PARTICLES
     particle_hash = sim.particles[2].hash.value
     planet_hash = sim.particles[1].hash.value
     start_time=time.monotonic()
@@ -137,8 +151,8 @@ if __name__ == "__main__":
 
             
   
-        # with open(output_file, "w") as f:
-        #     f.write(f"{m_planet},{result},{tmax}\n")
+        with open(output_file, "w") as f:
+            f.write(f"{m_planet},{result},{tmax}\n")
 
         
 
