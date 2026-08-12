@@ -19,6 +19,10 @@ double xp, yp, zp; // planet position
 double vxp, vyp, vzp; // planet velocity
 double xs, ys, zs; // star position
 
+double rp, xps, yps, zps; // planet position relative to star
+double dxp, dyp, dzp, rp2, rp3; // distance to planet
+double dxs, dys, dzs, rs2, rs3; // distance to star
+
 struct reb_simulation* r;
 
 void heartbeat(struct reb_simulation* r){
@@ -70,17 +74,16 @@ void planet_star_force(struct reb_simulation* r){
     // FORCES DUE TO PLANET AND STAR ON MASSLESS PARTICLES
     // THE PARTICLES ARE ASSUMED TO BE IN THE CENTER OF MASS FRAME 
     // OF THE STAR-PLANET SYSTEM
-    double t = r->t;    
     
     // mean anomaly at time t
-    M = M0 + n * (t - t0);
+    M = M0 + n * (r->t - t0);
     f = reb_M_to_f(ecc, M);
 
     // calculate position of planet at time t, relative to the star
-    double rp = a * (1. - ecc*ecc) / (1. + ecc*cos(f));
-    double xps = rp*(cos(Omega)*cos(omega+f)-sin(Omega)*sin(omega+f)*cos(inc));
-    double yps = rp*(sin(Omega)*cos(omega+f)+cos(Omega)*sin(omega+f)*cos(inc)); 
-    double zps = rp*(sin(omega+f)*sin(inc));
+    rp = a * (1. - ecc*ecc) / (1. + ecc*cos(f));
+    xps = rp*(cos(Omega)*cos(omega+f)-sin(Omega)*sin(omega+f)*cos(inc));
+    yps = rp*(sin(Omega)*cos(omega+f)+cos(Omega)*sin(omega+f)*cos(inc)); 
+    zps = rp*(sin(omega+f)*sin(inc));
 
     // calculate positions using COM
     xp = xps * ms / (ms + mp);
@@ -95,20 +98,20 @@ void planet_star_force(struct reb_simulation* r){
     for(int i=0; i<r->N; i++){
         if(r->particles[i].m == 0.0){ // only apply to massless particles
             // distance to planet
-            double dxp = r->particles[i].x - xp;
-            double dyp = r->particles[i].y - yp;
-            double dzp = r->particles[i].z - zp;
+            dxp = r->particles[i].x - xp;
+            dyp = r->particles[i].y - yp;
+            dzp = r->particles[i].z - zp;
 
-            double rp2 = sqrt(dxp*dxp + dyp*dyp + dzp*dzp);
-            double rp3 = rp2 * rp2 * rp2;
+            rp2 = sqrt(dxp*dxp + dyp*dyp + dzp*dzp);
+            rp3 = rp2 * rp2 * rp2;
 
             // distance to star
-            double dxs = r->particles[i].x - xs;
-            double dys = r->particles[i].y - ys;
-            double dzs = r->particles[i].z - zs;
+            dxs = r->particles[i].x - xs;
+            dys = r->particles[i].y - ys;
+            dzs = r->particles[i].z - zs;
 
-            double rs2 = sqrt(dxs*dxs + dys*dys + dzs*dzs);
-            double rs3 = rs2 * rs2 * rs2;
+            rs2 = sqrt(dxs*dxs + dys*dys + dzs*dzs);
+            rs3 = rs2 * rs2 * rs2;
 
             // add forces
             r->particles[i].ax -= G * (ms * dxs / rs3 + mp * dxp / rp3);
