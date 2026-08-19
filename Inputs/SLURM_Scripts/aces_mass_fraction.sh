@@ -1,15 +1,14 @@
 #!/bin/bash --login
 
 #SBATCH --job-name=mass_fraction_sim          # Name of Job. Its whatever you want to call it.  
-#SBATCH --array=0-2
-#SBATCH --nodes=1
+#SBATCH --array=0-80
 #SBATCH --cpus-per-task=1          
-#SBATCH --ntasks=50                      #Dang suggest 128?    # Number of tasks. This is also the number of cores  # SLURM defaults to 1 but we specify anyway
+#SBATCH --ntasks=500                      #Dang suggest 128?    # Number of tasks. This is also the number of cores  # SLURM defaults to 1 but we specify anyway
 
 ## Use nodes keyword
 ## also ntasks-per-node
-#SBATCH --mem=10G                              # Memory per node   # Specify "M" or "G" for MB and GB respectively
-#SBATCH --time=9:59:00                         # Wall time         # Format: "minutes", "hours:minutes:seconds",      # "days-hours", or "days-hours:minutes"
+#SBATCH --mem=100G                              # Memory per node   # Specify "M" or "G" for MB and GB respectively
+#SBATCH --time=5:59:00                         # Wall time         # Format: "minutes", "hours:minutes:seconds",      # "days-hours", or "days-hours:minutes"
 #Sbatch --error=/scratch/group/p.phy260085.000/Mass_Fraction/Outputs/SLURM_Outputs/Errors/%A-SLURM_error.out
 #SBATCH --output=/scratch/group/p.phy260085.000/Mass_Fraction/Outputs/SLURM_Outputs/Outputs/%A-SLURM_output.out
 # There next two are optional and have been commented out. Uncomment if you want emails to send to you about your job 
@@ -41,7 +40,7 @@ echo
   #  "$SLURM_ARRAY_TASK_ID" \
    # "$PARAM_FILE"
 
-srun bash -c "\"$PYTHON_BIN\" -u /scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_slim_output.py \"\$1\" \"\$2\" \"\$BASHPID\" \"\$3\"" _ \
+srun bash -c "\"$PYTHON_BIN\" -u /scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py \"\$1\" \"\$2\" \"\$BASHPID\" \"\$3\"" _ \
     "$SLURM_ARRAY_JOB_ID" \
     "$SLURM_ARRAY_TASK_ID" \
     "$PARAM_FILE"

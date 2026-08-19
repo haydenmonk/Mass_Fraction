@@ -1,0 +1,569 @@
+Using interpreter: /scratch/user/u.hm357857/.conda/envs/comets/bin/python
+/sw/eb/sw/Anaconda3/2022.10/bin/python
+/scratch/user/u.hm357857/.conda/envs/comets
+python
+python3
+python3.1
+python3.11
+python3.11-config
+python3-config
+Starting mass fraction simulations
+Date: Wed Aug 12 15:18:42 CDT 2026
+Host: ac031
+Job ID: 2036928
+CPUs per task: 1
+Nodes allocated: 1
+CPUs allocated on this node: 50
+Working directory: /scratch/group/p.phy260085.000/Mass_Fraction/Inputs/SLURM_Scripts
+
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    return self._dlltype(name)
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    self._handle = _dlopen(self._name, mode)
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    return self._dlltype(name)
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    self._handle = _dlopen(self._name, mode)
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    self._handle = _dlopen(self._name, mode)
+    return self._dlltype(name)
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+    self._handle = _dlopen(self._name, mode)
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    self._handle = _dlopen(self._name, mode)
+    return self._dlltype(name)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    return self._dlltype(name)
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    self._handle = _dlopen(self._name, mode)
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    return self._dlltype(name)
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    self._handle = _dlopen(self._name, mode)
+    self._handle = _dlopen(self._name, mode)
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    return self._dlltype(name)
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+    self._handle = _dlopen(self._name, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    self._handle = _dlopen(self._name, mode)
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    return self._dlltype(name)
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    return self._dlltype(name)
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    self._handle = _dlopen(self._name, mode)
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+    self._handle = _dlopen(self._name, mode)
+    self._handle = _dlopen(self._name, mode)
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 10, in <module>
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    clib = cdll.LoadLibrary("Heartbeat/heartbeat.so")
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+srun: error: ac031: tasks 0-49: Exited with exit code 1

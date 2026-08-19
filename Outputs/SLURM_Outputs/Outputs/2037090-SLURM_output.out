@@ -1,0 +1,399 @@
+Using interpreter: /scratch/user/u.hm357857/.conda/envs/comets/bin/python
+/scratch/user/u.hm357857/.conda/envs/comets/bin/python
+/scratch/user/u.hm357857/.conda/envs/comets
+python
+python3
+python3.1
+python3.11
+python3.11-config
+python3-config
+Starting mass fraction simulations
+Date: Wed Aug 12 17:32:47 CDT 2026
+Host: ac016
+Job ID: 2037090
+CPUs per task: 1
+Nodes allocated: 1
+CPUs allocated on this node: 50
+Working directory: /scratch/group/p.phy260085.000/Mass_Fraction/Inputs/SLURM_Scripts
+
+4.540821567362565 5.350659789575845
+3.1477724217427734 2.6489973019022925
+3.9025441616021985 6.252451803270499
+2.5895313186866216 2.1999863648620845
+0.10090747608205017 5.958327632359871
+3.378877492765151 4.8002043681342395
+0.6187191300378677 0.4218962474792652
+0.8924761215434511 3.041378166197478
+3.0880470737917447 3.434473303076828
+2.757594228999678 4.524219509507029
+1.8566474018707673 1.939296238184407
+2.8098529399409795 4.1133868858067055
+1.6836346324342784 2.6687400806872117
+3.2851911981541226 2.7583232821330608
+6.086053310087 1.1885896579252693
+1.8455927421414613 4.032930088134246
+0.5168324228222297 4.537981253059418
+3.268687366328168 4.169020819090771
+3.7302510783927327 0.5719837810719994
+2.1220307487271937 0.8533661781333589
+2.444277861350779 6.050548308026744
+1.5289989529579975 0.6752209705379464
+3.315039623898431 1.6074345454421242
+4.348601715951955 3.9707631620942077
+5.933428818405763 2.434173269420533
+3.4598022503532064 3.456288290611083
+3.672468451641696 3.023283124726165
+1.2336912196241188 2.831726936014915
+2.367970650960515 1.4561971639612676
+6.179517986147247 3.350959845514061
+2.771124041498199 3.527307643409879
+4.872904765598503 5.8990392129473905
+2.4281541129980684 1.4177339840170426
+6.053471969812124 5.955727618983835
+5.523068407447731 4.552341421895844
+5.2236485802357775 2.8081940594680304
+2.943085320008255 4.921982557241804
+5.828229410900726 1.3190182626064217
+1.7325253124675877 5.561552283804555
+5.496472404306505 1.3735714007590818
+0.4313171624096885 1.7870740641100131
+6.0389353381240625 3.7094212646711595
+2.2197616201385078 0.12143624560941818
+1.4859234425414563 2.255338197378801
+0.46460749971060256 3.924135120409636
+5.648903405289464 1.2498892920406108
+0.27665292962055577 2.90651658476043
+4.508478894462573 4.659082267215432
+2.5458969817408974 5.99716405836199
+0.5676730561391834 3.7933860034198505
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac086: task 42: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 30: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac086: task 23: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 21: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 11: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 12: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 36: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 5: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 20: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 24: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 40: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 18: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 22: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 47: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 48: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 4: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 31: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 42: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac086: task 25: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 33: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 13: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 49: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 2: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 27: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 37: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 8: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 32: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 38: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac086: task 15: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac086: task 14: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 14: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac086: task 11: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac086: task 13: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac086: task 12: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac086: task 24: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac086: task 4: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac086: task 3: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac086: task 28: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac086: task 37: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac086: task 46: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac086: task 36: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac086: task 41: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac057: task 21: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac086: task 2: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 41: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac016: task 19: Exited with exit code 1
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_analytic.py", line 164, in <module>
+    sim.integrate(t)
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 1389, in integrate
+    raise NoParticles("No more particles left in simulation.")
+rebound.NoParticles: No more particles left in simulation.
+srun: error: ac057: task 2: Exited with exit code 1
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:254: RuntimeWarning: At least 10 predictor corrector loops in IAS15 did not converge. This is typically an indication of the timestep being too large.
+  warnings.warn(msg[1:], RuntimeWarning)
