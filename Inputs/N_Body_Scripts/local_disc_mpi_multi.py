@@ -13,7 +13,7 @@ import signal
 
 STOP_FILE = "/tmp/stop_my_simulation"
 
-clib = cdll.LoadLibrary("/Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Inputs/N_Body_Scripts/Heartbeat/heartbeat.so")
+clib = cdll.LoadLibrary("/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/Heartbeat/heartbeat.so")
 
 
 clib.get_planet_cartesian.argtypes = [
@@ -322,8 +322,7 @@ if __name__ == "__main__":
     file_prefix = f"{job_id}-{task_id}"
 
     output_directory = (
-        "/Users/haydenmonk/Downloads/HPCC/"
-        "Mass_Fraction/Outputs/Ejection_Results"
+        "/scratch/group/p.phy260085.000/Mass_Fraction/Outputs/Ejection_Results"
     )
 
     output_file = (
@@ -332,8 +331,7 @@ if __name__ == "__main__":
     )
 
     archive_filename = (
-        "/Users/haydenmonk/Downloads/HPCC/"
-        "Mass_Fraction/Outputs/Sim_Archives/"
+        "/scratch/group/p.phy260085.000/Mass_Fraction/Outputs/Sim_Archives/"
         + f"{file_prefix}_sim.bin"
     )
 
@@ -373,7 +371,7 @@ if __name__ == "__main__":
 
     m_planet, tmax = tmax_mass_list[parameter_index]
 
-    a_planet = 3.0
+    a_planet = 1.0
     m_star = 1.0
     planet_period = np.sqrt(
         a_planet**3 / (m_star + m_planet)
@@ -423,10 +421,12 @@ if __name__ == "__main__":
         if rng.integers(0, 2):
             r_min = a_planet
             #r_max = a_planet + 2 * np.sqrt(3) * HR
-            r_max=a_planet+a_planet*1.7*m_planet**0.31
+            #r_max=a_planet+a_planet*1.7*m_planet**0.31
+            r_max=a_planet+CZ
         else:
             #r_min = a_planet- 2 * np.sqrt(3) * HR
-            r_min=a_planet-a_planet*1.2*m_planet**0.28
+            r_min=a_planet-CZ
+            #r_min=a_planet-a_planet*1.2*m_planet**0.28
             r_max = a_planet
             # r_min = max(r_min, 0.0)
 

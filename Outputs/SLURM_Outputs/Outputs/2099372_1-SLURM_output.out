@@ -1,0 +1,274 @@
+==========================================
+Mass Fraction MPI Run
+==========================================
+Date:               Mon Sep  7 22:42:58 CDT 2026
+Host:               ac063
+Array job ID:       2099372
+Array task ID:      1
+MPI ranks:          8
+CPUs per task:      1
+Nodes allocated:    1
+Python:             /scratch/user/u.hm357857/.conda/envs/comets/bin/python
+Conda environment:  /scratch/user/u.hm357857/.conda/envs/comets
+==========================================
+
+Running 800 simulations with 1 MPI ranks
+Rank 0: 800 simulations
+Running 800 simulations with 1 MPI ranks
+Rank 0: 800 simulations
+Running 800 simulations with 1 MPI ranks
+Rank 0: 800 simulations
+Running 800 simulations with 1 MPI ranks
+Rank 0: 800 simulations
+Running 800 simulations with 1 MPI ranks
+Rank 0: 800 simulations
+Running 800 simulations with 1 MPI ranks
+Rank 0: 800 simulations
+Running 800 simulations with 1 MPI ranks
+Rank 0: 800 simulations
+Running 800 simulations with 1 MPI ranks
+Rank 0: 800 simulations
+t=53745  fraction=0.43750  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.43750  below=0/3
+t=61708  fraction=0.48875  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.48875  below=0/3
+t=54741  fraction=0.44625  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.44625  below=0/3
+t=62703  fraction=0.49375  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.49375  below=0/3
+t=55736  fraction=0.45250  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.45250  below=0/3
+t=63698  fraction=0.49625  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.49625  below=0/3
+t=57727  fraction=0.47375  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.47375  below=0/3
+t=64694  fraction=0.50000  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.50000  below=0/3
+t=56731  fraction=0.45500  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.45500  below=0/3
+t=65689  fraction=0.50875  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.50875  below=0/3
+t=58722  fraction=0.47625  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.47625  below=0/3
+t=55736  fraction=0.44375  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.44375  below=0/3
+t=57727  fraction=0.45750  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.45750  below=0/3
+t=66684  fraction=0.51500  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.51500  below=0/3
+t=59717  fraction=0.48125  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.48125  below=0/3
+t=56731  fraction=0.45125  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.45125  below=0/3
+t=58722  fraction=0.46250  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.46250  below=0/3
+t=67679  fraction=0.52000  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.52000  below=0/3
+t=60712  fraction=0.48500  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.48500  below=0/3
+t=59717  fraction=0.47250  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.47250  below=0/3
+t=57727  fraction=0.45250  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.45250  below=0/3
+t=55736  fraction=0.41125  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.41125  below=0/3
+t=68675  fraction=0.52625  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.52625  below=0/3
+t=61708  fraction=0.49000  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.49000  below=0/3
+t=60712  fraction=0.47875  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.47875  below=0/3
+t=58722  fraction=0.45625  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.45625  below=0/3
+t=69670  fraction=0.53000  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.53000  below=0/3
+t=56731  fraction=0.41875  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.41875  below=0/3
+t=62703  fraction=0.49375  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.49375  below=0/3
+t=61708  fraction=0.48375  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.48375  below=0/3
+t=59717  fraction=0.45875  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.45875  below=0/3
+t=70665  fraction=0.53125  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.53125  below=0/3
+t=57727  fraction=0.42375  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.42375  below=0/3
+t=63698  fraction=0.49625  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.49625  below=0/3
+t=59717  fraction=0.45125  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.45125  below=0/3
+t=62703  fraction=0.48500  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.48500  below=0/3
+t=60712  fraction=0.46500  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.46500  below=0/3
+t=71661  fraction=0.53250  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.53250  below=0/3
+t=58722  fraction=0.42500  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.42500  below=0/3
+t=64694  fraction=0.49750  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.49750  below=0/3
+t=60712  fraction=0.45250  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.45250  below=0/3
+t=63698  fraction=0.48750  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.48750  below=0/3
+t=72656  fraction=0.53500  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.53500  below=0/3
+t=61708  fraction=0.47250  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.47250  below=0/3
+t=69670  fraction=0.49250  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.49250  below=0/3
+t=65689  fraction=0.50125  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.50125  below=0/3
+t=59717  fraction=0.42875  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.42875  below=0/3
+t=73651  fraction=0.53875  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.53875  below=0/3
+t=61708  fraction=0.45375  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.45375  below=0/3
+t=64694  fraction=0.48875  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.48875  below=0/3
+t=62703  fraction=0.47625  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.47625  below=0/3
+t=70665  fraction=0.49375  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.49375  below=0/3
+t=66684  fraction=0.50375  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.50375  below=0/3
+t=74646  fraction=0.54000  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.54000  below=0/3
+t=60712  fraction=0.43625  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.43625  below=0/3
+t=65689  fraction=0.49375  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.49375  below=0/3
+t=62703  fraction=0.45750  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.45750  below=0/3
+t=63698  fraction=0.47875  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.47875  below=0/3
+t=71661  fraction=0.49625  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.49625  below=0/3
+t=67679  fraction=0.50875  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.50875  below=0/3
+t=75642  fraction=0.54125  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.54125  below=0/3
+t=61708  fraction=0.44125  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.44125  below=0/3
+t=66684  fraction=0.49875  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.49875  below=0/3
+t=63698  fraction=0.46125  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.46125  below=0/3
+t=72656  fraction=0.49875  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.49875  below=0/3
+t=64694  fraction=0.47875  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.47875  below=0/3
+t=76637  fraction=0.54375  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.54250  below=0/3
+t=68675  fraction=0.51125  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.51125  below=0/3
+t=62703  fraction=0.44500  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.44500  below=0/3
+t=67679  fraction=0.50125  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.50125  below=0/3
+t=64694  fraction=0.46875  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.46875  below=0/3
+t=73651  fraction=0.50000  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.50000  below=0/3
+t=65689  fraction=0.48375  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.48375  below=0/3
+t=77632  fraction=0.54500  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.54375  below=0/3
+t=69670  fraction=0.50125  peak_slope=1.683e-05  t_peak=34835  comparison cadence=69670  difference=0.50125  below=0/3
+t=69670  fraction=0.51750  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.51750  below=0/3
+t=63698  fraction=0.44500  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.44500  below=0/3
+t=68675  fraction=0.50250  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.50250  below=0/3
+t=74646  fraction=0.50125  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.50125  below=0/3
+t=65689  fraction=0.47125  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.47125  below=0/3
+t=78628  fraction=0.54750  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.54500  below=0/3
+t=66684  fraction=0.48750  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.48750  below=0/3
+t=70665  fraction=0.50750  peak_slope=1.683e-05  t_peak=34835  comparison cadence=69670  difference=0.50750  below=0/3
+t=70665  fraction=0.52250  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.52250  below=0/3
+t=75642  fraction=0.50250  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.50250  below=0/3
+t=69670  fraction=0.50375  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.50250  below=0/3
+t=64694  fraction=0.44625  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.44625  below=0/3
+t=79623  fraction=0.55250  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.54250  below=0/3
+t=66684  fraction=0.47375  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.47375  below=0/3
+t=67679  fraction=0.49000  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.49000  below=0/3
+t=71661  fraction=0.51000  peak_slope=1.683e-05  t_peak=34835  comparison cadence=69670  difference=0.51000  below=0/3
+t=71661  fraction=0.52375  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.52375  below=0/3
+t=76637  fraction=0.50375  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.50375  below=0/3
+t=70665  fraction=0.50750  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.50125  below=0/3
+t=80618  fraction=0.55500  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.53750  below=0/3
+t=65689  fraction=0.45125  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.45125  below=0/3
+t=67679  fraction=0.47625  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.47625  below=0/3
+t=68675  fraction=0.49375  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.49375  below=0/3
+t=72656  fraction=0.51500  peak_slope=1.683e-05  t_peak=34835  comparison cadence=69670  difference=0.51500  below=0/3
+t=72656  fraction=0.52500  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.52500  below=0/3
+t=77632  fraction=0.50375  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.50375  below=0/3
+t=81613  fraction=0.55875  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.53250  below=0/3
+t=71661  fraction=0.50875  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.49625  below=0/3
+t=66684  fraction=0.45500  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.45500  below=0/3
+t=68675  fraction=0.48125  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.48125  below=0/3
+t=69670  fraction=0.49750  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.49750  below=0/3
+t=73651  fraction=0.51875  peak_slope=1.683e-05  t_peak=34835  comparison cadence=69670  difference=0.51875  below=0/3
+t=73651  fraction=0.52875  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.52750  below=0/3
+t=78628  fraction=0.50500  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.50500  below=0/3
+t=82609  fraction=0.56125  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.52000  below=0/3
+t=72656  fraction=0.51375  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.49125  below=0/3
+t=67679  fraction=0.45875  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.45875  below=0/3
+t=69670  fraction=0.48250  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.48250  below=0/3
+t=74646  fraction=0.52250  peak_slope=1.683e-05  t_peak=34835  comparison cadence=69670  difference=0.52250  below=0/3
+t=70665  fraction=0.50125  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.50125  below=0/3
+t=74646  fraction=0.53125  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.52750  below=0/3
+t=79623  fraction=0.50750  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.50750  below=0/3
+t=83604  fraction=0.56250  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.50250  below=0/3
+t=73651  fraction=0.51625  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.48750  below=0/3
+t=70665  fraction=0.48750  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.48750  below=0/3
+t=68675  fraction=0.45875  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.45875  below=0/3
+t=75642  fraction=0.52250  peak_slope=1.683e-05  t_peak=34835  comparison cadence=69670  difference=0.52250  below=0/3
+t=75642  fraction=0.53500  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.52250  below=0/3
+t=80618  fraction=0.51125  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.51125  below=0/3
+t=71661  fraction=0.50375  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.50250  below=0/3
+t=84599  fraction=0.56625  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.49250  below=0/3
+t=74646  fraction=0.51750  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.48500  below=0/3
+t=81613  fraction=0.51625  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.51625  below=0/3
+t=71661  fraction=0.48750  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.48750  below=0/3
+t=76637  fraction=0.52500  peak_slope=1.683e-05  t_peak=34835  comparison cadence=69670  difference=0.52500  below=0/3
+t=76637  fraction=0.53875  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.52000  below=0/3
+t=69670  fraction=0.46000  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.46000  below=0/3
+t=85595  fraction=0.56625  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.47000  below=0/3
+t=72656  fraction=0.50750  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.50500  below=0/3
+t=75642  fraction=0.52000  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.47500  below=0/3
+t=82609  fraction=0.51750  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.51750  below=0/3
+t=86590  fraction=0.56875  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.45750  below=0/3
+t=77632  fraction=0.52625  peak_slope=1.683e-05  t_peak=34835  comparison cadence=69670  difference=0.52625  below=0/3
+t=77632  fraction=0.54250  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.50750  below=0/3
+t=72656  fraction=0.49000  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.49000  below=0/3
+t=70665  fraction=0.46625  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.46625  below=0/3
+t=73651  fraction=0.51000  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.50375  below=0/3
+t=76637  fraction=0.52250  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.44875  below=0/3
+t=87585  fraction=0.57500  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.44625  below=0/3
+t=83604  fraction=0.52500  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.52500  below=0/3
+t=78628  fraction=0.52875  peak_slope=1.683e-05  t_peak=34835  comparison cadence=69670  difference=0.52875  below=0/3
+t=78628  fraction=0.54375  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.49250  below=0/3
+t=73651  fraction=0.49000  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.49000  below=0/3
+t=71661  fraction=0.47000  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.46750  below=0/3
+t=74646  fraction=0.51125  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.49375  below=0/3
+t=77632  fraction=0.52375  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.43750  below=0/3
+t=88580  fraction=0.57750  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.43000  below=0/3
+t=84599  fraction=0.52750  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.52625  below=0/3
+t=79623  fraction=0.53000  peak_slope=1.683e-05  t_peak=34835  comparison cadence=69670  difference=0.53000  below=0/3
+t=79623  fraction=0.54750  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.48375  below=0/3
+t=74646  fraction=0.49500  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.49500  below=0/3
+t=75642  fraction=0.51250  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.48500  below=0/3
+t=72656  fraction=0.47375  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.47125  below=0/3
+t=89576  fraction=0.58000  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.41625  below=0/3
+t=78628  fraction=0.52500  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.42000  below=0/3
+t=85595  fraction=0.52875  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.52500  below=0/3
+t=80618  fraction=0.53375  peak_slope=1.683e-05  t_peak=34835  comparison cadence=69670  difference=0.53375  below=0/3
+t=80618  fraction=0.55125  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.47250  below=0/3
+t=75642  fraction=0.49500  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.49375  below=0/3
+t=76637  fraction=0.51375  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.46875  below=0/3
+t=73651  fraction=0.47500  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.46750  below=0/3
+t=90571  fraction=0.58500  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.40375  below=0/3
+t=86590  fraction=0.53125  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.52000  below=0/3
+t=79623  fraction=0.52875  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.40250  below=0/3
+t=81613  fraction=0.53375  peak_slope=1.683e-05  t_peak=34835  comparison cadence=69670  difference=0.53375  below=0/3
+t=81613  fraction=0.55250  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.45750  below=0/3
+t=76637  fraction=0.50125  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.49625  below=0/3
+t=77632  fraction=0.51500  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.45375  below=0/3
+t=91566  fraction=0.58750  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.37375  below=0/3
+t=74646  fraction=0.47625  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.46375  below=0/3
+t=87585  fraction=0.53500  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.51375  below=0/3
+t=80618  fraction=0.53000  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.38750  below=0/3
+t=82609  fraction=0.53750  peak_slope=1.683e-05  t_peak=34835  comparison cadence=69670  difference=0.53750  below=0/3
+t=82609  fraction=0.55500  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.43875  below=0/3
+t=77632  fraction=0.50625  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.49500  below=0/3
+t=92562  fraction=0.58875  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.35750  below=0/3
+t=78628  fraction=0.51625  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.43875  below=0/3
+t=88580  fraction=0.53875  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.51375  below=0/3
+t=75642  fraction=0.48000  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.46125  below=0/3
+t=81613  fraction=0.53375  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.37500  below=0/3
+t=83604  fraction=0.54125  peak_slope=1.683e-05  t_peak=34835  comparison cadence=69670  difference=0.54125  below=0/3
+t=83604  fraction=0.55625  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.42625  below=0/3
+t=93557  fraction=0.59125  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.34250  below=0/3
+t=78628  fraction=0.50750  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.48750  below=0/3
+t=89576  fraction=0.53875  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.50375  below=0/3
+t=79623  fraction=0.52000  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.41750  below=0/3
+t=76637  fraction=0.48500  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.45875  below=0/3
+t=82609  fraction=0.53625  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.36125  below=0/3
+t=84599  fraction=0.55625  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.39625  below=0/3
+t=84599  fraction=0.54500  peak_slope=1.683e-05  t_peak=34835  comparison cadence=69670  difference=0.54375  below=0/3
+t=94552  fraction=0.59250  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.33500  below=0/3
+t=90571  fraction=0.54500  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.49750  below=0/3
+t=79623  fraction=0.51000  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.48125  below=0/3
+t=80618  fraction=0.52375  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.40500  below=0/3
+t=83604  fraction=0.54000  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.35500  below=0/3
+t=77632  fraction=0.48875  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.44625  below=0/3
+t=85595  fraction=0.55750  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.37375  below=0/3
+t=85595  fraction=0.55125  peak_slope=1.683e-05  t_peak=34835  comparison cadence=69670  difference=0.55000  below=0/3
+t=95547  fraction=0.59375  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.32500  below=0/3
+t=91566  fraction=0.54750  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.48000  below=0/3
+t=80618  fraction=0.51375  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.46875  below=0/3
+t=81613  fraction=0.52750  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.39125  below=0/3
+t=84599  fraction=0.54250  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.33500  below=0/3
+t=78628  fraction=0.48875  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.43000  below=0/3
+t=96543  fraction=0.59375  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.31250  below=0/3
+t=86590  fraction=0.55750  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.35250  below=0/3
+t=86590  fraction=0.55375  peak_slope=1.683e-05  t_peak=34835  comparison cadence=69670  difference=0.55000  below=0/3
+t=92562  fraction=0.55000  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.47375  below=0/3
+t=81613  fraction=0.51500  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.45500  below=0/3
+t=82609  fraction=0.52875  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.37625  below=0/3
+t=85595  fraction=0.54250  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.31250  below=0/3
+t=97538  fraction=0.59500  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.29875  below=0/3
+t=87585  fraction=0.55875  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.33750  below=0/3
+t=87585  fraction=0.55375  peak_slope=1.683e-05  t_peak=34835  comparison cadence=69670  difference=0.54250  below=0/3
+t=79623  fraction=0.49125  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.41250  below=0/3
+t=93557  fraction=0.55125  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.46125  below=0/3
+t=82609  fraction=0.51750  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.43750  below=0/3
+t=83604  fraction=0.52875  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.35500  below=0/3
+t=98533  fraction=0.59500  peak_slope=2.060e-05  t_peak=30854  comparison cadence=61708  difference=0.28500  below=0/3
+Saved 314 remaining particles to /scratch/group/p.phy260085.000/Mass_Fraction/Outputs/Ejection_Results/remaining_particles_2099372_1.csv
+t=86590  fraction=0.54500  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.29875  below=0/3
+t=88580  fraction=0.56125  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.32500  below=0/3
+t=88580  fraction=0.55625  peak_slope=1.683e-05  t_peak=34835  comparison cadence=69670  difference=0.54250  below=0/3
+t=80618  fraction=0.49500  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.40125  below=0/3
+t=94552  fraction=0.55500  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.44875  below=0/3
+t=83604  fraction=0.52125  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.42750  below=0/3
+t=84599  fraction=0.53000  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.34250  below=0/3
+t=87585  fraction=0.54750  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.28375  below=0/3
+t=89576  fraction=0.56375  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.31000  below=0/3
+t=89576  fraction=0.55750  peak_slope=1.683e-05  t_peak=34835  comparison cadence=69670  difference=0.53750  below=0/3
+t=95547  fraction=0.55500  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.43500  below=0/3
+t=81613  fraction=0.49875  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.39000  below=0/3
+t=84599  fraction=0.52500  peak_slope=2.060e-05  t_peak=29859  comparison cadence=59717  difference=0.41625  below=0/3
+t=85595  fraction=0.53375  peak_slope=1.934e-05  t_peak=27868  comparison cadence=55736  difference=0.33250  below=0/3
+t=88580  fraction=0.54875  peak_slope=1.959e-05  t_peak=26873  comparison cadence=53745  difference=0.27500  below=0/3
+t=90571  fraction=0.56375  peak_slope=2.210e-05  t_peak=28863  comparison cadence=57727  difference=0.29500  below=0/3
+t=90571  fraction=0.55875  peak_slope=1.683e-05  t_peak=34835  comparison cadence=69670  difference=0.52250  below=0/3
+t=96543  fraction=0.55750  peak_slope=1.859e-05  t_peak=34835  comparison cadence=69670  difference=0.41750  below=0/3
+t=82609  fraction=0.49875  peak_slope=1.783e-05  t_peak=27868  comparison cadence=55736  difference=0.37000  below=0/3

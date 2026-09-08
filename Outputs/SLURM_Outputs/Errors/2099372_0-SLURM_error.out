@@ -1,0 +1,89 @@
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/local_disc_mpi_multi.py", line 434, in <module>
+    sim = create_sim(
+          ^^^^^^^^^^^
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/local_disc_mpi_multi.py", line 96, in create_sim
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/local_disc_mpi_multi.py", line 434, in <module>
+    sim.add(
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 930, in add
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/local_disc_mpi_multi.py", line 434, in <module>
+    sim = create_sim(
+          ^^^^^^^^^^^
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/local_disc_mpi_multi.py", line 96, in create_sim
+    sim.add(
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 930, in add
+    sim = create_sim(
+          ^^^^^^^^^^^
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/local_disc_mpi_multi.py", line 96, in create_sim
+    sim.add(
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 930, in add
+    self.add(Particle(simulation=self, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/particle.py", line 379, in __init__
+    self.add(Particle(simulation=self, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/particle.py", line 379, in __init__
+    self.add(Particle(simulation=self, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/particle.py", line 379, in __init__
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/local_disc_mpi_multi.py", line 434, in <module>
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/local_disc_mpi_multi.py", line 434, in <module>
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/local_disc_mpi_multi.py", line 434, in <module>
+    sim = create_sim(
+          ^^^^^^^^^^^
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/local_disc_mpi_multi.py", line 96, in create_sim
+    sim.add(
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 930, in add
+    sim = create_sim(
+          ^^^^^^^^^^^
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/local_disc_mpi_multi.py", line 96, in create_sim
+    sim = create_sim(
+          ^^^^^^^^^^^
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/local_disc_mpi_multi.py", line 96, in create_sim
+    sim.add(
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 930, in add
+    sim.add(
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 930, in add
+    self.add(Particle(simulation=self, **kwargs))
+    raise ValueError("Unbound orbit (a < 0) must have e > 1.")
+ValueError: Unbound orbit (a < 0) must have e > 1.
+    raise ValueError("Unbound orbit (a < 0) must have e > 1.")
+ValueError: Unbound orbit (a < 0) must have e > 1.
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/particle.py", line 379, in __init__
+    self.add(Particle(simulation=self, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/particle.py", line 379, in __init__
+    raise ValueError("Unbound orbit (a < 0) must have e > 1.")
+ValueError: Unbound orbit (a < 0) must have e > 1.
+    self.add(Particle(simulation=self, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/particle.py", line 379, in __init__
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/local_disc_mpi_multi.py", line 434, in <module>
+    raise ValueError("Unbound orbit (a < 0) must have e > 1.")
+ValueError: Unbound orbit (a < 0) must have e > 1.
+    raise ValueError("Unbound orbit (a < 0) must have e > 1.")
+ValueError: Unbound orbit (a < 0) must have e > 1.
+    raise ValueError("Unbound orbit (a < 0) must have e > 1.")
+ValueError: Unbound orbit (a < 0) must have e > 1.
+    sim = create_sim(
+          ^^^^^^^^^^^
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/local_disc_mpi_multi.py", line 96, in create_sim
+    sim.add(
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py", line 930, in add
+    self.add(Particle(simulation=self, **kwargs))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/particle.py", line 379, in __init__
+    raise ValueError("Unbound orbit (a < 0) must have e > 1.")
+ValueError: Unbound orbit (a < 0) must have e > 1.
+srun: error: ac053: tasks 1-7: Exited with exit code 1
+srun: Terminating StepId=2099373.0
+[2026-09-07T22:42:24.441] error: *** STEP 2099373.0 ON ac052 CANCELLED AT 2026-09-07T22:42:24 DUE TO TASK FAILURE ***
+srun: error: ac052: task 0: Terminated
+srun: Force Terminated StepId=2099373.0
