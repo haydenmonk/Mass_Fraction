@@ -1,0 +1,64 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+# ============================================================
+# Configuration
+# ============================================================
+
+PYTHON_SCRIPT="/Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Inputs/N_Body_Scripts/local_disc_mpi_multi.py"
+
+PARAM_FILE="This does not matter"
+
+# Number of entries in tmax_mass_dict
+N_MASSES=6
+
+# Your machine has 8 cores, so use 8 MPI ranks.
+# Each rank will handle N_total / 8 separate simulations.
+MPI_RANKS_PER_MASS=8
+
+# Run one mass at a time.
+# This means all 8 cores work on the same mass.
+MAX_CONCURRENT_MASSES=1
+
+# All masses from this run will write to the same
+# {job_id}_ejection_results.txt file.
+LOCAL_JOB_ID="local_$(date +%Y%m%d_%H%M%S)"
+
+
+# Prevent libraries from quietly spawning extra threads
+export OMP_NUM_THREADS=1
+export OPENBLAS_NUM_THREADS=1
+export MKL_NUM_THREADS=1
+export NUMEXPR_NUM_THREADS=1
+
+
+echo "=========================================="
+echo "Mass Fraction Local MPI Run"
+echo "=========================================="
+echo "Job ID:              $LOCAL_JOB_ID"
+echo "Number of masses:    $N_MASSES"
+echo "MPI ranks per mass:  $MPI_RANKS_PER_MASS"
+echo "Concurrent masses:   $MAX_CONCURRENT_MASSES"
+echo "=========================================="
+
+# ============================================================
+# Launch one MPI job per mass
+# ============================================================
+
+seq 0 $((N_MASSES - 1)) |
+parallel \
+    --jobs "$MAX_CONCURRENT_MASSES" \
+    --halt soon,fail=1 \
+    '
+    echo "Starting mass index {}"
+
+    mpirun -np '"$MPI_RANKS_PER_MASS"' \
+        python -u "'"$PYTHON_SCRIPT"'" \
+        "'"$LOCAL_JOB_ID"'" \
+        {} \
+        "'"$PARAM_FILE"'" \
+        > "/Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Outputs/GNUParallel_Outputs/mass_{}.out" 2>&1
+
+    echo "Finished mass index {}"
+    '

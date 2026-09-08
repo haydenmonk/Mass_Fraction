@@ -1,0 +1,40 @@
+Rank 2: 100 simulations
+Rank 5: 100 simulations
+Rank 4: 100 simulations
+Rank 6: 100 simulations
+Rank 3: 100 simulations
+Rank 7: 100 simulations
+Rank 1: 100 simulations
+Running 800 simulations with 8 MPI ranks
+Rank 0: 100 simulations
+t=102397  fraction=0.80500  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.80500  below=0/3
+t=107517  fraction=0.81500  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.81500  below=0/3
+t=112637  fraction=0.82375  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.82375  below=0/3
+t=117757  fraction=0.83750  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.83750  below=0/3
+t=122876  fraction=0.84250  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.81875  below=0/3
+t=127996  fraction=0.84875  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.69250  below=0/3
+t=133116  fraction=0.85250  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.56000  below=0/3
+t=138236  fraction=0.85750  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.45875  below=0/3
+t=143356  fraction=0.86250  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.38250  below=0/3
+t=148476  fraction=0.87125  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.34000  below=0/3
+t=153596  fraction=0.87500  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.28000  below=0/3
+t=158715  fraction=0.87750  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.23500  below=0/3
+t=163835  fraction=0.88000  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.20500  below=0/3
+t=168955  fraction=0.88125  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.19125  below=0/3
+t=174075  fraction=0.88250  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.17375  below=0/3
+t=179195  fraction=0.88750  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.16125  below=0/3
+t=184315  fraction=0.88750  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.13750  below=0/3
+t=189435  fraction=0.88875  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.12500  below=0/3
+t=194554  fraction=0.89000  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.11125  below=0/3
+t=199674  fraction=0.89250  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.09750  below=0/3
+t=204794  fraction=0.89250  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.08750  below=0/3
+t=209914  fraction=0.89375  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.07875  below=0/3
+t=215034  fraction=0.89625  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.07250  below=0/3
+t=220154  fraction=0.90000  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.06250  below=0/3
+t=225274  fraction=0.90250  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.06000  below=0/3
+t=230393  fraction=0.90250  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.05375  below=0/3
+t=235513  fraction=0.90250  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.05000  below=1/3
+t=240633  fraction=0.90250  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.04500  below=2/3
+t=245753  fraction=0.90250  peak_slope=1.982e-05  t_peak=46079  comparison cadence=102397  difference=0.04000  below=3/3
+Stopping at t=245752.99254980418
+Saved 51 remaining particles to /Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Outputs/Ejection_Results/remaining_particles_local_20260907_225102_0.csv
