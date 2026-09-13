@@ -13,7 +13,7 @@ import signal
 
 STOP_FILE = "/tmp/stop_my_simulation"
 
-clib = cdll.LoadLibrary("/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/Heartbeat/heartbeat.so")
+clib = cdll.LoadLibrary("/Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Inputs/N_Body_Scripts/Heartbeat/heartbeat.so")
 
 
 clib.get_planet_cartesian.argtypes = [
@@ -87,7 +87,10 @@ def create_sim(
 
     # Exactly ONE massless particle per simulation
     a = rng.uniform(r_min, r_max)
+    print(a)
     e = rng.rayleigh(scale=0.1)
+    while e >= 1:
+        e = rng.rayleigh(scale=0.1)
     inc = rng.uniform(-i_difference, i_difference)
     Omega = rng.uniform(0, 2 * np.pi)
     omega = rng.uniform(0, 2 * np.pi)
@@ -322,7 +325,7 @@ if __name__ == "__main__":
     file_prefix = f"{job_id}-{task_id}"
 
     output_directory = (
-        "/scratch/group/p.phy260085.000/Mass_Fraction/Outputs/Ejection_Results"
+        "/Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Outputs/Ejection_Results"
     )
 
     output_file = (
@@ -331,7 +334,7 @@ if __name__ == "__main__":
     )
 
     archive_filename = (
-        "/scratch/group/p.phy260085.000/Mass_Fraction/Outputs/Sim_Archives/"
+        "/Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Outputs/Sim_Archives/"
         + f"{file_prefix}_sim.bin"
     )
 
@@ -363,13 +366,21 @@ if __name__ == "__main__":
         # 0.00005: 5_000_000,
     }
 
-    tmax_mass_list = list(tmax_mass_dict.items())
+    masses=np.logspace(-2,-5,6)
+    t_maxes=2.02731513e+01*masses**(-3/2) + 6.97903308e+04
 
+    # tmax_mass_list = list(tmax_mass_dict.items())
+
+    # parameter_index = (
+    #     int(task_id) % len(tmax_mass_list)
+    # )
     parameter_index = (
-        int(task_id) % len(tmax_mass_list)
-    )
+            int(task_id) % len(masses)
+        )
 
-    m_planet, tmax = tmax_mass_list[parameter_index]
+    # m_planet, tmax = tmax_mass_list[parameter_index]
+    m_planet=masses[parameter_index]
+    tmax=t_maxes[parameter_index]
 
     a_planet = 1.0
     m_star = 1.0
@@ -415,18 +426,25 @@ if __name__ == "__main__":
     my_particle_ids = range(rank, N_total, size)
     states = {}
 
+    e_scale=0.1
+    p=0.99
+    e_p=e_scale*np.sqrt(-2*np.log(1-p))
+    e_eff=e_p
+    
+
     for pid in my_particle_ids:
 
         rng = np.random.default_rng(pid + 10)
         if rng.integers(0, 2):
             r_min = a_planet
-            #r_max = a_planet + 2 * np.sqrt(3) * HR
+            #r_max = a_planet + 2*np.sqrt(3)* HR
             #r_max=a_planet+a_planet*1.7*m_planet**0.31
-            r_max=a_planet+CZ
+            r_max= a_planet+1.8*a_planet*e_eff**(1/5)*m_planet**(1/5)
+            #r_max=a_planet+CZ
         else:
-            #r_min = a_planet- 2 * np.sqrt(3) * HR
-            r_min=a_planet-CZ
-            #r_min=a_planet-a_planet*1.2*m_planet**0.28
+            #r_min = a_planet- 2*np.sqrt(3) * HR
+            #r_min=a_planet-CZ
+            r_min=a_planet-1.8*a_planet*e_eff**(1/5)*m_planet**(1/5)
             r_max = a_planet
             # r_min = max(r_min, 0.0)
 
