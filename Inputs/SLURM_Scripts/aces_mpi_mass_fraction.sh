@@ -27,7 +27,8 @@ set -euo pipefail
 # Configuration
 # ============================================================
 
-PYTHON_SCRIPT="/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/local_disc_mpi_multi.py"
+PYTHON_SCRIPT="/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_mpi_multi.py"
+
 
 
 PARAM_FILE="unused"

@@ -13,7 +13,7 @@ import signal
 
 STOP_FILE = "/tmp/stop_my_simulation"
 
-clib = cdll.LoadLibrary("/Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Inputs/N_Body_Scripts/Heartbeat/heartbeat.so")
+clib = cdll.LoadLibrary("/scratch/group/p.phy260085.000//Mass_Fraction/Inputs/N_Body_Scripts/Heartbeat/heartbeat.so")
 
 
 clib.get_planet_cartesian.argtypes = [
@@ -325,7 +325,7 @@ if __name__ == "__main__":
     file_prefix = f"{job_id}-{task_id}"
 
     output_directory = (
-        "/Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Outputs/Ejection_Results"
+        "/scratch/group/p.phy260085.000//Mass_Fraction/Outputs/Ejection_Results"
     )
 
     output_file = (
@@ -334,7 +334,7 @@ if __name__ == "__main__":
     )
 
     archive_filename = (
-        "/Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Outputs/Sim_Archives/"
+        "/scratch/group/p.phy260085.000/Mass_Fraction/Outputs/Sim_Archives/"
         + f"{file_prefix}_sim.bin"
     )
 

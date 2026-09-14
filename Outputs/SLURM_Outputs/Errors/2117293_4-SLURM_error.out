@@ -1,0 +1,46 @@
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/local_disc_mpi_multi.py", line 16, in <module>
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/local_disc_mpi_multi.py", line 16, in <module>
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/local_disc_mpi_multi.py", line 16, in <module>
+    clib = cdll.LoadLibrary("/Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Inputs/N_Body_Scripts/Heartbeat/heartbeat.so")
+    clib = cdll.LoadLibrary("/Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Inputs/N_Body_Scripts/Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    clib = cdll.LoadLibrary("/Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Inputs/N_Body_Scripts/Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: /Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Inputs/N_Body_Scripts/Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: /Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Inputs/N_Body_Scripts/Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: /Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Inputs/N_Body_Scripts/Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/local_disc_mpi_multi.py", line 16, in <module>
+    clib = cdll.LoadLibrary("/Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Inputs/N_Body_Scripts/Heartbeat/heartbeat.so")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 454, in LoadLibrary
+    return self._dlltype(name)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/ctypes/__init__.py", line 376, in __init__
+    self._handle = _dlopen(self._name, mode)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: /Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Inputs/N_Body_Scripts/Heartbeat/heartbeat.so: cannot open shared object file: No such file or directory
+srun: error: ac017: tasks 0-3: Exited with exit code 1
+srun: Terminating StepId=2117307.0

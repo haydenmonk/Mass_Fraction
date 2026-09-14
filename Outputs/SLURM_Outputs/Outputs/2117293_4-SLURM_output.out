@@ -1,0 +1,14 @@
+==========================================
+Mass Fraction MPI Run
+==========================================
+Date:               Sat Sep 12 22:38:04 CDT 2026
+Host:               ac017
+Array job ID:       2117293
+Array task ID:      4
+MPI ranks:          4
+CPUs per task:      1
+Nodes allocated:    1
+Python:             /scratch/user/u.hm357857/.conda/envs/comets/bin/python
+Conda environment:  /scratch/user/u.hm357857/.conda/envs/comets
+==========================================
+
