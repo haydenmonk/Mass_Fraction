@@ -1,0 +1,3 @@
+[2026-09-14T13:36:36.026] error: *** JOB 2117473 ON ac038 CANCELLED AT 2026-09-14T13:36:36 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+[2026-09-14T13:36:36.080] error: *** STEP 2117473.0 ON ac038 CANCELLED AT 2026-09-14T13:36:36 DUE TO TIME LIMIT ***
