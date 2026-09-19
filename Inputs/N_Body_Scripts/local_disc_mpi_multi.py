@@ -87,7 +87,6 @@ def create_sim(
 
     # Exactly ONE massless particle per simulation
     a = rng.uniform(r_min, r_max)
-    print(a)
     e = rng.rayleigh(scale=0.1)
     while e >= 1:
         e = rng.rayleigh(scale=0.1)
@@ -292,7 +291,7 @@ if __name__ == "__main__":
 
     # For 8 MPI ranks
     # gives about 100 separate simulations per rank.
-    N_total = 200
+    N_total = 800
 
     
     fraction_record = []
@@ -304,7 +303,7 @@ if __name__ == "__main__":
 
     #Stopping criterion parameters
     slope_window = 5
-    minimum_comparison_steps =20
+    minimum_comparison_steps =100
     consecutive_required = 3
     consecutive_below = 0
     minimum_fraction = 0.1
@@ -338,6 +337,11 @@ if __name__ == "__main__":
         + f"{file_prefix}_sim.bin"
     )
 
+    particle_filename = (
+        "/Users/haydenmonk/Downloads/HPCC/Mass_Fraction/Outputs/Particle_Tracking/"
+            + f"{file_prefix}_initial_particles.txt"
+    )
+
     # --------------------------------------------------------
     # Planet mass / tmax
     # --------------------------------------------------------
@@ -367,7 +371,7 @@ if __name__ == "__main__":
     }
 
     masses=np.logspace(-2,-3.5,6)
-    t_maxes=2.02731513e+01*masses**(-3/2) + 6.97903308e+04
+    t_maxes=(2.02731513e+01*masses**(-3/2) + 6.97903308e+04)*4
 
     # tmax_mass_list = list(tmax_mass_dict.items())
 
@@ -437,14 +441,15 @@ if __name__ == "__main__":
         rng = np.random.default_rng(pid + 10)
         if rng.integers(0, 2):
             r_min = a_planet
+            r_max=1.9
             #r_max = a_planet + 2*np.sqrt(3)* HR
             #r_max=a_planet+a_planet*1.7*m_planet**0.31
-            r_max= a_planet+1.8*a_planet*e_eff**(1/5)*m_planet**(1/5)
+            #r_max= a_planet+1.8*a_planet*e_eff**(1/5)*m_planet**(1/5)
             #r_max=a_planet+CZ
         else:
-            #r_min = a_planet- 2*np.sqrt(3) * HR
+            r_min = 0.1
             #r_min=a_planet-CZ
-            r_min=a_planet-1.8*a_planet*e_eff**(1/5)*m_planet**(1/5)
+            #r_min=a_planet-1.8*a_planet*e_eff**(1/5)*m_planet**(1/5)
             r_max = a_planet
             # r_min = max(r_min, 0.0)
 
@@ -457,6 +462,12 @@ if __name__ == "__main__":
             m_star=m_star,
             seed=pid + 10,
         )
+
+        
+        a_i,e_i=calculate_a_e(sim.t, sim.particles[0], m_planet)
+        write_results(particle_filename, a_i, e_i, pid)
+
+
 
         states[pid] = {
             "sim": sim,
@@ -497,7 +508,7 @@ if __name__ == "__main__":
             try:
                 sim.integrate(t)
             except rebound.NoParticles:
-                write_results(output_file,m_planet,t,"Ejected" )
+                write_results(output_file,m_planet,t,"Ejected", pid )
 
                 state["ejected"] = True
                 state["done"] = True
@@ -534,6 +545,7 @@ if __name__ == "__main__":
                         m_planet,
                         t,
                         "Captured",
+                        pid
                     )
 
                     state["captured"] = True
@@ -602,7 +614,7 @@ if __name__ == "__main__":
 
             if fraction >= minimum_fraction and t_peak_slope is not None:
 
-                comparison_cadence = max(2 * t_peak_slope,minimum_comparison_steps * cadence)
+                comparison_cadence = max(3 * t_peak_slope,minimum_comparison_steps * cadence)
 
                 n_steps_back = int(round(comparison_cadence/ cadence))
 
