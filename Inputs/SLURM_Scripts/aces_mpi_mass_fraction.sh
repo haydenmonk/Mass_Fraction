@@ -11,7 +11,7 @@
 #SBATCH --cpus-per-task=1
 
 #SBATCH --mem=10G
-#SBATCH --time=12:59:00
+#SBATCH --time=23:59:00
 
 #SBATCH --error=/scratch/group/p.phy260085.000/Mass_Fraction/Outputs/SLURM_Outputs/Errors/%A_%a-SLURM_error.out
 #SBATCH --output=/scratch/group/p.phy260085.000/Mass_Fraction/Outputs/SLURM_Outputs/Outputs/%A_%a-SLURM_output.out

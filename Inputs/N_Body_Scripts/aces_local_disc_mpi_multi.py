@@ -338,6 +338,11 @@ if __name__ == "__main__":
         + f"{file_prefix}_sim.bin"
     )
 
+    particle_filename = (
+        "/scratch/group/p.phy260085.000/Mass_Fraction/Outputs/Particle_Tracking/"
+            + f"{file_prefix}_initial_particles.txt"
+    )
+
     # --------------------------------------------------------
     # Planet mass / tmax
     # --------------------------------------------------------
@@ -439,13 +444,15 @@ if __name__ == "__main__":
             r_min = a_planet
             #r_max = a_planet + 2*np.sqrt(3)* HR
             #r_max=a_planet+a_planet*1.7*m_planet**0.31
-            r_max= a_planet+1.8*a_planet*e_eff**(1/5)*m_planet**(1/5)
+            #r_max= a_planet+1.8*a_planet*e_eff**(1/5)*m_planet**(1/5)
             #r_max=a_planet+CZ
+            r_max=2.5
         else:
             #r_min = a_planet- 2*np.sqrt(3) * HR
             #r_min=a_planet-CZ
-            r_min=a_planet-1.8*a_planet*e_eff**(1/5)*m_planet**(1/5)
+            #r_min=a_planet-1.8*a_planet*e_eff**(1/5)*m_planet**(1/5)
             r_max = a_planet
+            r_min= 0.5
             # r_min = max(r_min, 0.0)
 
 
@@ -457,6 +464,9 @@ if __name__ == "__main__":
             m_star=m_star,
             seed=pid + 10,
         )
+
+        a_i,e_i=calculate_a_e(sim.t, sim.particles[0], m_planet)
+        write_results(particle_filename, a_i, e_i, pid)
 
         states[pid] = {
             "sim": sim,
