@@ -387,7 +387,7 @@ if __name__ == "__main__":
     m_planet=masses[parameter_index]
     tmax=t_maxes[parameter_index]
 
-    a_planet = 1.0
+    a_planet = 5.0
     m_star = 1.0
     planet_period = np.sqrt(
         a_planet**3 / (m_star + m_planet)
@@ -446,13 +446,13 @@ if __name__ == "__main__":
             #r_max=a_planet+a_planet*1.7*m_planet**0.31
             #r_max= a_planet+1.8*a_planet*e_eff**(1/5)*m_planet**(1/5)
             #r_max=a_planet+CZ
-            r_max=2.5
+            r_max=15
         else:
             #r_min = a_planet- 2*np.sqrt(3) * HR
             #r_min=a_planet-CZ
             #r_min=a_planet-1.8*a_planet*e_eff**(1/5)*m_planet**(1/5)
             r_max = a_planet
-            r_min= 0.5
+            r_min= 1
             # r_min = max(r_min, 0.0)
 
 
@@ -507,7 +507,7 @@ if __name__ == "__main__":
             try:
                 sim.integrate(t)
             except rebound.NoParticles:
-                write_results(output_file,m_planet,t,"Ejected" )
+                write_results(output_file,m_planet,t,"Ejected", pid )
 
                 state["ejected"] = True
                 state["done"] = True
@@ -544,6 +544,7 @@ if __name__ == "__main__":
                         m_planet,
                         t,
                         "Captured",
+                        pid
                     )
 
                     state["captured"] = True
