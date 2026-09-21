@@ -820,3 +820,17 @@ Running 200 simulations with 1 MPI ranks
 Rank 0: 200 simulations
 Running 200 simulations with 1 MPI ranks
 Rank 0: 200 simulations
+t=3599500  fraction=0.10000  peak_slope=2.684e-07  t_peak=1442036  comparison cadence=2884072  difference=0.10000  below=0/3
+t=3610679  fraction=0.10000  peak_slope=2.684e-07  t_peak=1442036  comparison cadence=2884072  difference=0.10000  below=0/3
+t=3621858  fraction=0.10000  peak_slope=2.684e-07  t_peak=1442036  comparison cadence=2884072  difference=0.10000  below=0/3
+t=3633036  fraction=0.10000  peak_slope=2.684e-07  t_peak=1442036  comparison cadence=2884072  difference=0.10000  below=0/3
+t=3644215  fraction=0.10000  peak_slope=2.684e-07  t_peak=1442036  comparison cadence=2884072  difference=0.10000  below=0/3
+t=3655393  fraction=0.10000  peak_slope=2.684e-07  t_peak=1442036  comparison cadence=2884072  difference=0.10000  below=0/3
+t=3666572  fraction=0.10000  peak_slope=2.684e-07  t_peak=1442036  comparison cadence=2884072  difference=0.10000  below=0/3
+t=3677750  fraction=0.10000  peak_slope=2.684e-07  t_peak=1442036  comparison cadence=2884072  difference=0.10000  below=0/3
+t=3688929  fraction=0.10000  peak_slope=2.684e-07  t_peak=1442036  comparison cadence=2884072  difference=0.10000  below=0/3
+t=3700108  fraction=0.10000  peak_slope=2.684e-07  t_peak=1442036  comparison cadence=2884072  difference=0.10000  below=0/3
+t=3711286  fraction=0.10000  peak_slope=2.684e-07  t_peak=1442036  comparison cadence=2884072  difference=0.10000  below=0/3
+t=3722465  fraction=0.10000  peak_slope=2.684e-07  t_peak=1442036  comparison cadence=2884072  difference=0.10000  below=0/3
+t=3733643  fraction=0.10000  peak_slope=2.684e-07  t_peak=1442036  comparison cadence=2884072  difference=0.10000  below=0/3
+t=3744822  fraction=0.10000  peak_slope=2.684e-07  t_peak=1442036  comparison cadence=2884072  difference=0.10000  below=0/3

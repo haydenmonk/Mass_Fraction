@@ -68,6 +68,7 @@ def create_sim(
     m_star=1.0,
     i_difference=0.1,
     seed=None,
+    particle_id=None
 ):
 
     # IMPORTANT:
@@ -105,6 +106,8 @@ def create_sim(
         omega=omega,
         M=M,
     )
+
+    write_results(particle_filename, a, e, particle_id)
 
     sim.move_to_com()
 
@@ -387,7 +390,7 @@ if __name__ == "__main__":
     m_planet=masses[parameter_index]
     tmax=t_maxes[parameter_index]
 
-    a_planet = 5.0
+    a_planet = 1.0
     m_star = 1.0
     planet_period = np.sqrt(
         a_planet**3 / (m_star + m_planet)
@@ -446,13 +449,13 @@ if __name__ == "__main__":
             #r_max=a_planet+a_planet*1.7*m_planet**0.31
             #r_max= a_planet+1.8*a_planet*e_eff**(1/5)*m_planet**(1/5)
             #r_max=a_planet+CZ
-            r_max=15
+            r_max=2.5
         else:
             #r_min = a_planet- 2*np.sqrt(3) * HR
             #r_min=a_planet-CZ
             #r_min=a_planet-1.8*a_planet*e_eff**(1/5)*m_planet**(1/5)
             r_max = a_planet
-            r_min= 1
+            r_min= 0.2
             # r_min = max(r_min, 0.0)
 
 
@@ -463,10 +466,8 @@ if __name__ == "__main__":
             a_planet=a_planet,
             m_star=m_star,
             seed=pid + 10,
+            particle_id=pid
         )
-
-        a_i,e_i=calculate_a_e(sim.t, sim.particles[0], m_planet)
-        write_results(particle_filename, a_i, e_i, pid)
 
         states[pid] = {
             "sim": sim,
