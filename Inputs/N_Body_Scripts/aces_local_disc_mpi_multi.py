@@ -295,7 +295,7 @@ if __name__ == "__main__":
 
     # For 8 MPI ranks
     # gives about 100 separate simulations per rank.
-    N_total = 200
+    N_total = 800
 
     
     fraction_record = []
@@ -443,21 +443,22 @@ if __name__ == "__main__":
     for pid in my_particle_ids:
 
         rng = np.random.default_rng(pid + 10)
-        if rng.integers(0, 2):
-            r_min = a_planet
+       # if rng.integers(0, 2):
+        #    r_min = a_planet
             #r_max = a_planet + 2*np.sqrt(3)* HR
             #r_max=a_planet+a_planet*1.7*m_planet**0.31
             #r_max= a_planet+1.8*a_planet*e_eff**(1/5)*m_planet**(1/5)
             #r_max=a_planet+CZ
-            r_max=2.5
-        else:
+         #   r_max=2.5
+       # else:
             #r_min = a_planet- 2*np.sqrt(3) * HR
             #r_min=a_planet-CZ
             #r_min=a_planet-1.8*a_planet*e_eff**(1/5)*m_planet**(1/5)
-            r_max = a_planet
-            r_min= 0.2
+        #    r_max = a_planet
+         #   r_min= 0.2
             # r_min = max(r_min, 0.0)
-
+        r_min=0.25
+        r_max=2.5
 
         sim = create_sim(
             m_planet=m_planet,

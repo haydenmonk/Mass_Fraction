@@ -1,0 +1,6 @@
+Python: /scratch/user/u.hm357857/.conda/envs/comets/bin/python
+SLURM_NTASKS: 4
+hostname=ac076 SLURM_PROCID=0 MPI rank=0 of 4
+hostname=ac076 SLURM_PROCID=0 MPI rank=1 of 4
+hostname=ac076 SLURM_PROCID=0 MPI rank=2 of 4
+hostname=ac076 SLURM_PROCID=0 MPI rank=3 of 4

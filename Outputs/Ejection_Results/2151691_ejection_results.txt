@@ -1,0 +1,7 @@
+0.01,0.0,Captured,498
+0.01,0.0,Captured,53
+0.01,0.0,Captured,241
+0.01,0.0,Captured,391
+0.01,0.0,Captured,439
+0.01,0.0,Captured,535
+0.01,0.0,Captured,679
