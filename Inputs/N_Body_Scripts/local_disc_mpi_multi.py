@@ -68,6 +68,7 @@ def create_sim(
     m_star=1.0,
     i_difference=0.1,
     seed=None,
+    particle_id=None
 ):
 
     # IMPORTANT:
@@ -94,9 +95,11 @@ def create_sim(
     Omega = rng.uniform(0, 2 * np.pi)
     omega = rng.uniform(0, 2 * np.pi)
     M = rng.uniform(0, 2 * np.pi)
+    write_results(particle_filename, a, e, particle_id)
 
     sim.add(
         m=0,
+        primary=sim.particles[0],
         a=a,
         e=e,
         inc=inc,
@@ -461,11 +464,8 @@ if __name__ == "__main__":
             a_planet=a_planet,
             m_star=m_star,
             seed=pid + 10,
-        )
-
-        
-        a_i,e_i=calculate_a_e(sim.t, sim.particles[0], m_planet)
-        write_results(particle_filename, a_i, e_i, pid)
+            particle_id=pid
+        )        
 
 
 

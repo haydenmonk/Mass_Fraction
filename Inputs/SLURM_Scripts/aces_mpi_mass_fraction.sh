@@ -79,12 +79,6 @@ echo
 # Launch MPI Python program
 # ============================================================
 
-#srun --kill-on-bad-exit=1 \
-   # "$PYTHON_BIN" -u "$PYTHON_SCRIPT" \
-   # "$SLURM_ARRAY_JOB_ID" \
-   # "$SLURM_ARRAY_TASK_ID" \
-   # "$PARAM_FILE"
-
 mpirun -np "$SLURM_NTASKS" \
     "$PYTHON_BIN" -u "$PYTHON_SCRIPT" \
     "$SLURM_ARRAY_JOB_ID" \
