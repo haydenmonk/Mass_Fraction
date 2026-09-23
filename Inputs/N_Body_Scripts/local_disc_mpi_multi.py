@@ -389,7 +389,7 @@ if __name__ == "__main__":
     m_planet=masses[parameter_index]
     tmax=t_maxes[parameter_index]
 
-    a_planet = 1.0
+    a_planet = 5.0
     m_star = 1.0
     planet_period = np.sqrt(
         a_planet**3 / (m_star + m_planet)
@@ -442,19 +442,21 @@ if __name__ == "__main__":
     for pid in my_particle_ids:
 
         rng = np.random.default_rng(pid + 10)
-        if rng.integers(0, 2):
-            r_min = a_planet
-            r_max=1.9
-            #r_max = a_planet + 2*np.sqrt(3)* HR
-            #r_max=a_planet+a_planet*1.7*m_planet**0.31
-            #r_max= a_planet+1.8*a_planet*e_eff**(1/5)*m_planet**(1/5)
-            #r_max=a_planet+CZ
-        else:
-            r_min = 0.1
-            #r_min=a_planet-CZ
-            #r_min=a_planet-1.8*a_planet*e_eff**(1/5)*m_planet**(1/5)
-            r_max = a_planet
-            # r_min = max(r_min, 0.0)
+        # if rng.integers(0, 2):
+        #     r_min = a_planet
+        #     r_max=1.9
+        #     #r_max = a_planet + 2*np.sqrt(3)* HR
+        #     #r_max=a_planet+a_planet*1.7*m_planet**0.31
+        #     #r_max= a_planet+1.8*a_planet*e_eff**(1/5)*m_planet**(1/5)
+        #     #r_max=a_planet+CZ
+        # else:
+        #     r_min = 0.1
+        #     #r_min=a_planet-CZ
+        #     #r_min=a_planet-1.8*a_planet*e_eff**(1/5)*m_planet**(1/5)
+        #     r_max = a_planet
+        #     # r_min = max(r_min, 0.0)
+        r_min=1
+        r_max=15
 
 
         sim = create_sim(
