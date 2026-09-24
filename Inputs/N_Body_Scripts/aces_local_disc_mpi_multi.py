@@ -390,7 +390,7 @@ if __name__ == "__main__":
     m_planet=masses[parameter_index]
     tmax=t_maxes[parameter_index]
 
-    a_planet = 50.0
+    a_planet = 1.0
     m_star = 1.0
     planet_period = np.sqrt(
         a_planet**3 / (m_star + m_planet)
@@ -457,8 +457,8 @@ if __name__ == "__main__":
         #    r_max = a_planet
          #   r_min= 0.2
             # r_min = max(r_min, 0.0)
-        r_min=25
-        r_max=125
+        r_min=0.5
+        r_max=2.5
 
         sim = create_sim(
             m_planet=m_planet,
