@@ -307,11 +307,12 @@ if __name__ == "__main__":
 
     #Stopping criterion parameters
     slope_window = 5
-    minimum_comparison_steps =20
+    minimum_comparison_steps =100
     consecutive_required = 3
     consecutive_below = 0
-    minimum_fraction = 0.1
-    max_integration_time = 1e8
+    minimum_fraction = 0.07
+    max_integration_time = 1e10
+    slope_minimum=0.02
 
     if len(sys.argv) > 1:
         job_id = sys.argv[1]
@@ -374,8 +375,8 @@ if __name__ == "__main__":
         # 0.00005: 5_000_000,
     }
 
-    masses=np.logspace(-3.5,-5,6)
-    t_maxes=(2.02731513e+01*masses**(-3/2) + 6.97903308e+04)*5
+    masses=np.logspace(-2,-3.5,6)
+    t_maxes=(2.02731513e+01*masses**(-3/2) + 6.97903308e+04)*10
 
     # tmax_mass_list = list(tmax_mass_dict.items())
 
@@ -390,7 +391,7 @@ if __name__ == "__main__":
     m_planet=masses[parameter_index]
     tmax=t_maxes[parameter_index]
 
-    a_planet = 50.0
+    a_planet = 5.0
     m_star = 1.0
     planet_period = np.sqrt(
         a_planet**3 / (m_star + m_planet)
@@ -457,8 +458,8 @@ if __name__ == "__main__":
         #    r_max = a_planet
          #   r_min= 0.2
             # r_min = max(r_min, 0.0)
-        r_min=25
-        r_max=125
+        r_min=2.5
+        r_max=12.5
 
         sim = create_sim(
             m_planet=m_planet,
@@ -615,7 +616,7 @@ if __name__ == "__main__":
 
             if fraction >= minimum_fraction and t_peak_slope is not None:
 
-                comparison_cadence = max(2 * t_peak_slope,minimum_comparison_steps * cadence)
+                comparison_cadence = max(3 * t_peak_slope,minimum_comparison_steps * cadence)
 
                 n_steps_back = int(round(comparison_cadence/ cadence))
 
@@ -628,7 +629,7 @@ if __name__ == "__main__":
                         ]
                     )
 
-                    if difference < 0.05:
+                    if difference < slope_minimum:
                         consecutive_below += 1
 
                     else:
