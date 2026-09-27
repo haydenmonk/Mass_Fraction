@@ -374,7 +374,7 @@ if __name__ == "__main__":
         # 0.00005: 5_000_000,
     }
 
-    masses=np.logspace(-2,-3.5,6)
+    masses=np.logspace(-3.5,-5,6)
     t_maxes=(2.02731513e+01*masses**(-3/2) + 6.97903308e+04)*5
 
     # tmax_mass_list = list(tmax_mass_dict.items())
@@ -390,7 +390,7 @@ if __name__ == "__main__":
     m_planet=masses[parameter_index]
     tmax=t_maxes[parameter_index]
 
-    a_planet = 1.0
+    a_planet = 50.0
     m_star = 1.0
     planet_period = np.sqrt(
         a_planet**3 / (m_star + m_planet)
@@ -457,8 +457,8 @@ if __name__ == "__main__":
         #    r_max = a_planet
          #   r_min= 0.2
             # r_min = max(r_min, 0.0)
-        r_min=0.5
-        r_max=2.5
+        r_min=25
+        r_max=125
 
         sim = create_sim(
             m_planet=m_planet,
