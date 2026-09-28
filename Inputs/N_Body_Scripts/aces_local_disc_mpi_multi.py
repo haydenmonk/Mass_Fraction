@@ -312,7 +312,7 @@ if __name__ == "__main__":
     consecutive_below = 0
     minimum_fraction = 0.07
     max_integration_time = 1e10
-    slope_minimum=0.02
+    slope_minimum=0.04
 
     if len(sys.argv) > 1:
         job_id = sys.argv[1]
@@ -375,7 +375,7 @@ if __name__ == "__main__":
         # 0.00005: 5_000_000,
     }
 
-    masses=np.logspace(-2,-3.5,6)
+    masses=np.logspace(-5,-3.5,6)
     t_maxes=(2.02731513e+01*masses**(-3/2) + 6.97903308e+04)*10
 
     # tmax_mass_list = list(tmax_mass_dict.items())
