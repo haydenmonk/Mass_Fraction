@@ -375,8 +375,8 @@ if __name__ == "__main__":
         # 0.00005: 5_000_000,
     }
 
-    masses=np.logspace(-2,-3.5,6)
-    t_maxes=(2.02731513e+01*masses**(-3/2) + 6.97903308e+04)*10
+    masses=np.logspace(-5,-3.5,5)
+    t_maxes=(2.02731513e+01*masses**(-3/2) + 6.97903308e+04)*30
 
     # tmax_mass_list = list(tmax_mass_dict.items())
 
