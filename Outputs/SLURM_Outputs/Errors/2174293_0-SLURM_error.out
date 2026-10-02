@@ -6,3 +6,5 @@
   warnings.warn(msg[1:], RuntimeWarning)
 /scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:254: RuntimeWarning: At least 10 predictor corrector loops in IAS15 did not converge. This is typically an indication of the timestep being too large.
   warnings.warn(msg[1:], RuntimeWarning)
+[2026-10-01T19:49:32.047] error: *** JOB 2174294 ON ac006 CANCELLED AT 2026-10-01T19:49:32 DUE TO TIME LIMIT ***
+[2026-10-01T19:49:32.093] error: *** STEP 2174294.0 ON ac006 CANCELLED AT 2026-10-01T19:49:32 DUE TO TIME LIMIT ***
