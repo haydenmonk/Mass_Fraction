@@ -5,6 +5,7 @@ import time
 import fcntl
 import os
 import pandas as pd
+from pathlib import Path
 
 from mpi4py import MPI
 from ctypes import cdll, c_double, POINTER, byref
@@ -68,7 +69,9 @@ def create_sim(
     m_star=1.0,
     i_difference=0.1,
     seed=None,
-    particle_id=None
+    particle_id=None,
+    archive_root="/scratch/group/p.phy260085.000/Mass_Fraction/Outputs/Sim_Archives",
+    snapshot_walltime=3600,   # seconds
 ):
 
     # IMPORTANT:
@@ -105,6 +108,8 @@ def create_sim(
         Omega=Omega,
         omega=omega,
         M=M,
+        primary=sim.particles[0],
+        hash=particle_id
     )
 
     write_results(particle_filename, a, e, particle_id)
@@ -121,6 +126,27 @@ def create_sim(
     sim.integrator = "ias15"
     sim.boundary = "open"
     sim.configure_box(100_000.0)
+
+    mass_dir = (
+        Path(archive_root)
+        / f"mass_{m_planet:.8e}"
+    )
+
+    mass_dir.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
+    archive_file = (
+        mass_dir
+        / f"particle_{particle_id}.bin"
+    )
+
+    sim.save_to_file(
+        str(archive_file),
+        walltime=snapshot_walltime,
+        delete_file=True
+    )
 
     return sim
 
@@ -276,6 +302,8 @@ def save_remaining_particles(states, comm, rank, output_file, m_planet, T_planet
             f"Saved {len(df)} remaining particles to {output_file}",
             flush=True,
         )
+def power_law(m, A, alpha):
+    return A * m**alpha
 
 
 
@@ -329,7 +357,7 @@ if __name__ == "__main__":
     file_prefix = f"{job_id}-{task_id}"
 
     output_directory = (
-        "/scratch/group/p.phy260085.000//Mass_Fraction/Outputs/Ejection_Results"
+        "/scratch/group/p.phy260085.000/Mass_Fraction/Outputs/Ejection_Results"
     )
 
     output_file = (
@@ -375,7 +403,7 @@ if __name__ == "__main__":
         # 0.00005: 5_000_000,
     }
 
-    masses=np.logspace(-5,-3.5,5)
+    masses=np.logspace(-5,-3.5,5, endpoint=False)
     t_maxes=(2.02731513e+01*masses**(-3/2) + 6.97903308e+04)*30
 
     # tmax_mass_list = list(tmax_mass_dict.items())
@@ -458,8 +486,15 @@ if __name__ == "__main__":
         #    r_max = a_planet
          #   r_min= 0.2
             # r_min = max(r_min, 0.0)
-        r_min=a_planet/2
-        r_max=a_planet*2.5
+        # r_min=a_planet/2
+        # r_max=a_planet*2.5
+        A_inner = 3.729132931366645
+        alpha_inner = 0.14939347354180882
+
+        A_outer = 34.508406515008886
+        alpha_outer = 0.32060397131882085
+        r_max=a_planet+1.05*power_law(m_planet, A_outer, alpha_outer)/5
+        r_min=a_planet-1.05*power_law(m_planet, A_inner, alpha_inner)/5
 
         sim = create_sim(
             m_planet=m_planet,
