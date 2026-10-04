@@ -144,11 +144,17 @@ def create_sim(
 
     sim.save_to_file(
         str(archive_file),
-        walltime=snapshot_walltime,
         delete_file=True
     )
 
-    return sim
+    state = {
+        "sim": sim,
+        "particle_id": particle_id,
+        "archive_file": archive_file,
+        "last_save": time.monotonic(),
+    }
+
+    return state
 
 
 def hill_radius(m_planet, a_planet=1.0, m_star=1.0):
@@ -341,6 +347,7 @@ if __name__ == "__main__":
     minimum_fraction = 0.07
     max_integration_time = 1e10
     slope_minimum=0.04
+    SAVE_INTERVAL = 60 * 60 * 2  # seconds
 
     if len(sys.argv) > 1:
         job_id = sys.argv[1]
@@ -496,7 +503,7 @@ if __name__ == "__main__":
         r_max=a_planet+1.05*power_law(m_planet, A_outer, alpha_outer)/5
         r_min=a_planet-1.05*power_law(m_planet, A_inner, alpha_inner)/5
 
-        sim = create_sim(
+        save_state = create_sim(
             m_planet=m_planet,
             r_min=r_min,
             r_max=r_max,
@@ -505,6 +512,8 @@ if __name__ == "__main__":
             seed=pid + 10,
             particle_id=pid
         )
+
+        sim=save_state["sim"]
 
         states[pid] = {
             "sim": sim,
@@ -551,6 +560,11 @@ if __name__ == "__main__":
                 state["done"] = True
                 continue
 
+            now=time.monotonic()
+            if now-save_state["last_save"]>SAVE_INTERVAL:
+                sim.save_to_file(str(save_state["archive_file"]))
+                save_state["last_save"]=now
+
             planet_centric_e = (
                 sim.particles[0]
                 .orbit(
@@ -592,10 +606,10 @@ if __name__ == "__main__":
                 time.monotonic() - start_time
             )
 
-            if (elapsed_time > 60 * 60 * 6 and not archive_started):
-                #Remember that these can possibly be overwritten by other ranks
-                sim.save_to_file(archive_filename, walltime=60 * 30)
-                archive_started = True
+            # if (elapsed_time > 60 * 60 * 6 and not archive_started):
+            #     #Remember that these can possibly be overwritten by other ranks
+            #     sim.save_to_file(archive_filename, walltime=60 * 30)
+            #     archive_started = True
 
         # All local simulations have now reached checkpoint t
         # ====================================================

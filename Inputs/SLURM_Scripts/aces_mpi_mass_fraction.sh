@@ -7,7 +7,7 @@
 #SBATCH --array=0-4
 
 # Number of MPI ranks working on EACH mass
-#SBATCH --ntasks=4
+#SBATCH --ntasks=48
 #SBATCH --cpus-per-task=1
 
 #SBATCH --mem=10G
