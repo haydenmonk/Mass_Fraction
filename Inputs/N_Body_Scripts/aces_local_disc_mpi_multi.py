@@ -7,6 +7,7 @@ import os
 import pandas as pd
 from pathlib import Path
 
+
 from mpi4py import MPI
 from ctypes import cdll, c_double, POINTER, byref
 
@@ -71,7 +72,7 @@ def create_sim(
     seed=None,
     particle_id=None,
     archive_root="/scratch/group/p.phy260085.000/Mass_Fraction/Outputs/Sim_Archives",
-    snapshot_walltime=3600,   # seconds
+    dir_job_id=None,
 ):
 
     # IMPORTANT:
@@ -129,7 +130,7 @@ def create_sim(
 
     mass_dir = (
         Path(archive_root)
-        / f"mass_{m_planet:.8e}"
+        / f"{dir_job_id}_mass_{m_planet:.8e}"
     )
 
     mass_dir.mkdir(
@@ -410,7 +411,7 @@ if __name__ == "__main__":
         # 0.00005: 5_000_000,
     }
 
-    masses=np.logspace(-5,-3.5,5, endpoint=False)
+    masses=np.logspace(-2,-3.5,6)
     t_maxes=(2.02731513e+01*masses**(-3/2) + 6.97903308e+04)*30
 
     # tmax_mass_list = list(tmax_mass_dict.items())
@@ -426,7 +427,7 @@ if __name__ == "__main__":
     m_planet=masses[parameter_index]
     tmax=t_maxes[parameter_index]
 
-    a_planet = 1.0
+    a_planet = 50
     m_star = 1.0
     planet_period = np.sqrt(
         a_planet**3 / (m_star + m_planet)
@@ -493,15 +494,15 @@ if __name__ == "__main__":
         #    r_max = a_planet
          #   r_min= 0.2
             # r_min = max(r_min, 0.0)
-        # r_min=a_planet/2
-        # r_max=a_planet*2.5
+        r_min=a_planet/2
+        r_max=a_planet*2.5
         A_inner = 3.729132931366645
         alpha_inner = 0.14939347354180882
 
         A_outer = 34.508406515008886
         alpha_outer = 0.32060397131882085
-        r_max=a_planet+1.05*power_law(m_planet, A_outer, alpha_outer)/5
-        r_min=a_planet-1.05*power_law(m_planet, A_inner, alpha_inner)/5
+        #r_max=a_planet+1.05*power_law(m_planet, A_outer, alpha_outer)/5
+        #r_min=a_planet-1.05*power_law(m_planet, A_inner, alpha_inner)/5
 
         save_state = create_sim(
             m_planet=m_planet,
@@ -510,7 +511,8 @@ if __name__ == "__main__":
             a_planet=a_planet,
             m_star=m_star,
             seed=pid + 10,
-            particle_id=pid
+            particle_id=pid,
+            dir_job_id=job_id
         )
 
         sim=save_state["sim"]
