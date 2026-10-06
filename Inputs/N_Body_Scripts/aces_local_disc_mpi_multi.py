@@ -427,7 +427,7 @@ if __name__ == "__main__":
     m_planet=masses[parameter_index]
     tmax=t_maxes[parameter_index]
 
-    a_planet = 50
+    a_planet = 1.0
     m_star = 1.0
     planet_period = np.sqrt(
         a_planet**3 / (m_star + m_planet)
