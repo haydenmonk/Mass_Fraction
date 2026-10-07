@@ -6,6 +6,7 @@ import fcntl
 import os
 import pandas as pd
 from pathlib import Path
+import warnings
 
 
 from mpi4py import MPI
@@ -504,7 +505,7 @@ if __name__ == "__main__":
         #r_max=a_planet+1.05*power_law(m_planet, A_outer, alpha_outer)/5
         #r_min=a_planet-1.05*power_law(m_planet, A_inner, alpha_inner)/5
 
-        save_state = create_sim(
+        state = create_sim(
             m_planet=m_planet,
             r_min=r_min,
             r_max=r_max,
@@ -515,18 +516,11 @@ if __name__ == "__main__":
             dir_job_id=job_id
         )
 
-        sim=save_state["sim"]
+        state["done"] = False
+        state["ejected"] = False
+        state["captured"] = False
 
-        states[pid] = {
-            "sim": sim,
-
-            # done integrating
-            "done": False,
-
-            # details
-            "ejected": False,
-            "captured": False,
-        }
+        states[pid] = state
 
     if rank == 0:
         print(f"Running {N_total} simulations with {size} MPI ranks")
@@ -554,18 +548,33 @@ if __name__ == "__main__":
             sim = state["sim"]
 
             try:
-                sim.integrate(t)
+                with warnings.catch_warnings():
+                    warnings.filterwarnings(
+                        "error",
+                        message=r".*predictor corrector loops.*",
+                        category=RuntimeWarning
+                    )
+                    sim.integrate(t)
             except rebound.NoParticles:
                 write_results(output_file,m_planet,t,"Ejected", pid )
 
                 state["ejected"] = True
                 state["done"] = True
                 continue
+            except RuntimeWarning as w:
+                if "predictor corrector loops" in str(w):
+                    sim.save_to_file(str(state["archive_file"]))
+                    write_results(output_file,m_planet,t,"Integrator Error", pid )
+
+                    state["done"] = True
+                    continue
+                
+                raise
 
             now=time.monotonic()
-            if now-save_state["last_save"]>SAVE_INTERVAL:
-                sim.save_to_file(str(save_state["archive_file"]))
-                save_state["last_save"]=now
+            if now-state["last_save"]>SAVE_INTERVAL:
+                sim.save_to_file(str(state["archive_file"]))
+                state["last_save"]=now
 
             planet_centric_e = (
                 sim.particles[0]
