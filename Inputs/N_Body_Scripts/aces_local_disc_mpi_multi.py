@@ -331,7 +331,7 @@ if __name__ == "__main__":
 
     # For 8 MPI ranks
     # gives about 100 separate simulations per rank.
-    N_total = 300
+    N_total = 800
 
     
     fraction_record = []
@@ -412,7 +412,7 @@ if __name__ == "__main__":
         # 0.00005: 5_000_000,
     }
 
-    masses=np.logspace(-4.1,-3.8,2)
+    masses=np.logspace(-5,-4.4,3)
     t_maxes=(2.02731513e+01*masses**(-3/2) + 6.97903308e+04)*30
 
     # tmax_mass_list = list(tmax_mass_dict.items())
@@ -495,30 +495,33 @@ if __name__ == "__main__":
         #    r_max = a_planet
          #   r_min= 0.2
             # r_min = max(r_min, 0.0)
-        r_min=a_planet/2
-        r_max=a_planet*2.5
-        A_inner = 3.729132931366645
-        alpha_inner = 0.14939347354180882
+        # r_min=a_planet/2
+        # r_max=a_planet*2.5
+        # A_inner = 3.729132931366645
+        # alpha_inner = 0.14939347354180882
 
-        A_outer = 34.508406515008886
-        alpha_outer = 0.32060397131882085
-        outer_lim=power_law(m_planet, A_outer, alpha_outer)/5
-        inner_lim=power_law(m_planet, A_inner, alpha_inner)/5
-        r_min_1=a_planet+1.05*outer_lim
+        # A_outer = 34.508406515008886
+        # alpha_outer = 0.32060397131882085
+        # outer_lim=power_law(m_planet, A_outer, alpha_outer)/5
+        # inner_lim=power_law(m_planet, A_inner, alpha_inner)/5
+        # r_min_1=a_planet+1.05*outer_lim
         r_max_1=2
         r_min_2=0.6
-        r_max_2=a_planet-1.05*inner_lim
+        # r_max_2=a_planet-1.05*inner_lim
 
 
-        w1 = r_max_1 - r_min_1
-        w2 = r_max_2 - r_min_2
+        # w1 = r_max_1 - r_min_1
+        # w2 = r_max_2 - r_min_2
 
-        if rng.random() < w1 / (w1 + w2):
-            r_min=r_min_1
-            r_max=r_max_1
-        else:
-            r_min=r_min_2
-            r_max=r_max_2
+        # if rng.random() < w1 / (w1 + w2):
+        #     r_min=r_min_1
+        #     r_max=r_max_1
+        # else:
+        #     r_min=r_min_2
+        #     r_max=r_max_2
+
+        r_max=r_max_1
+        r_min=r_min_2
 
         state = create_sim(
             m_planet=m_planet,
