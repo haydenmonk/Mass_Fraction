@@ -1,0 +1,11 @@
+==========================================
+Mass Fraction Restart
+Date:             Sun Oct 11 12:11:55 CDT 2026
+Host:             ac014
+Array job ID:     2206774
+Original JOB_ID:  2199100
+Mass index:       1
+MPI ranks:        5
+Python:           /scratch/user/u.hm357857/.conda/envs/comets/bin/python
+==========================================
+Original JOB_ID=2199100; array index=1; selected mass=1.99526231e-05; directory=/scratch/group/p.phy260085.000/Mass_Fraction/Outputs/Sim_Archives/2199100_mass_1.99526231e-05

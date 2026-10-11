@@ -1,0 +1,50 @@
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:148: RuntimeWarning: You have to reset function pointers after creating a reb_simulation struct with a binary file.
+  warnings.warn(message, RuntimeWarning)
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:148: RuntimeWarning: You have to reset function pointers after creating a reb_simulation struct with a binary file.
+  warnings.warn(message, RuntimeWarning)
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:148: RuntimeWarning: You have to reset function pointers after creating a reb_simulation struct with a binary file.
+  warnings.warn(message, RuntimeWarning)
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/restart_mass_fraction.py", line 363, in <module>
+    main()
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/restart_mass_fraction.py", line 359, in main
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/restart_mass_fraction.py", line 363, in <module>
+    run_mass(mass, directory, job_id)
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/restart_mass_fraction.py", line 210, in run_mass
+    main()
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/restart_mass_fraction.py", line 359, in main
+    raise FileNotFoundError(f"No archive or terminal event for particle {pid}: {source_file}")
+FileNotFoundError: No archive or terminal event for particle 302: /scratch/group/p.phy260085.000/Mass_Fraction/Outputs/Sim_Archives/2196199_mass_1.58489319e-04/particle_302.bin
+    run_mass(mass, directory, job_id)
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/restart_mass_fraction.py", line 210, in run_mass
+    raise FileNotFoundError(f"No archive or terminal event for particle {pid}: {source_file}")
+FileNotFoundError: No archive or terminal event for particle 300: /scratch/group/p.phy260085.000/Mass_Fraction/Outputs/Sim_Archives/2196199_mass_1.58489319e-04/particle_300.bin
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/restart_mass_fraction.py", line 363, in <module>
+    main()
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/restart_mass_fraction.py", line 359, in main
+    run_mass(mass, directory, job_id)
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/restart_mass_fraction.py", line 210, in run_mass
+    raise FileNotFoundError(f"No archive or terminal event for particle {pid}: {source_file}")
+FileNotFoundError: No archive or terminal event for particle 301: /scratch/group/p.phy260085.000/Mass_Fraction/Outputs/Sim_Archives/2196199_mass_1.58489319e-04/particle_301.bin
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:148: RuntimeWarning: You have to reset function pointers after creating a reb_simulation struct with a binary file.
+  warnings.warn(message, RuntimeWarning)
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:148: RuntimeWarning: You have to reset function pointers after creating a reb_simulation struct with a binary file.
+  warnings.warn(message, RuntimeWarning)
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/restart_mass_fraction.py", line 363, in <module>
+    main()
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/restart_mass_fraction.py", line 359, in main
+    run_mass(mass, directory, job_id)
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/restart_mass_fraction.py", line 210, in run_mass
+    raise FileNotFoundError(f"No archive or terminal event for particle {pid}: {source_file}")
+FileNotFoundError: No archive or terminal event for particle 303: /scratch/group/p.phy260085.000/Mass_Fraction/Outputs/Sim_Archives/2196199_mass_1.58489319e-04/particle_303.bin
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/restart_mass_fraction.py", line 363, in <module>
+    main()
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/restart_mass_fraction.py", line 359, in main
+    run_mass(mass, directory, job_id)
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/restart_mass_fraction.py", line 210, in run_mass
+    raise FileNotFoundError(f"No archive or terminal event for particle {pid}: {source_file}")
+FileNotFoundError: No archive or terminal event for particle 304: /scratch/group/p.phy260085.000/Mass_Fraction/Outputs/Sim_Archives/2196199_mass_1.58489319e-04/particle_304.bin

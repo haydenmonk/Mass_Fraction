@@ -1,0 +1,30 @@
+==========================================
+Mass Fraction Restart
+Date:             Sun Oct 11 10:41:33 CDT 2026
+Host:             ac026
+Array job ID:     2206638
+Original JOB_ID:  2199100
+Mass index:       2
+MPI ranks:        5
+Python:           /scratch/user/u.hm357857/.conda/envs/comets/bin/python
+==========================================
+Original JOB_ID=2199100; array index=2; selected mass=3.98107171e-05; directory=/scratch/group/p.phy260085.000/Mass_Fraction/Outputs/Sim_Archives/2199100_mass_3.98107171e-05
+Mass 3.98107171e-05: 298 active; earliest checkpoint t=1872962.7183766298
+mass=3.98107171e-05 t=1872963 fraction=0.00667 peak_slope=6.667e-07 t_peak=468990.6646655739 comparison_cadence=None difference=None below=0/3 would_stop=False active=298
+mass=3.98107171e-05 t=1882963 fraction=0.00667 peak_slope=6.667e-07 t_peak=468990.6646655739 comparison_cadence=None difference=None below=0/3 would_stop=False active=298
+mass=3.98107171e-05 t=1892962 fraction=0.00667 peak_slope=6.667e-07 t_peak=468990.6646655739 comparison_cadence=None difference=None below=0/3 would_stop=False active=298
+mass=3.98107171e-05 t=1902962 fraction=0.00667 peak_slope=6.667e-07 t_peak=468990.6646655739 comparison_cadence=None difference=None below=0/3 would_stop=False active=298
+mass=3.98107171e-05 t=1912962 fraction=0.00667 peak_slope=6.667e-07 t_peak=468990.6646655739 comparison_cadence=None difference=None below=0/3 would_stop=False active=298
+mass=3.98107171e-05 t=1922962 fraction=0.00667 peak_slope=6.667e-07 t_peak=468990.6646655739 comparison_cadence=None difference=None below=0/3 would_stop=False active=298
+mass=3.98107171e-05 t=1932962 fraction=0.00667 peak_slope=6.667e-07 t_peak=468990.6646655739 comparison_cadence=None difference=None below=0/3 would_stop=False active=298
+mass=3.98107171e-05 t=1942961 fraction=0.00667 peak_slope=6.667e-07 t_peak=468990.6646655739 comparison_cadence=None difference=None below=0/3 would_stop=False active=298
+mass=3.98107171e-05 t=1952961 fraction=0.00667 peak_slope=6.667e-07 t_peak=468990.6646655739 comparison_cadence=None difference=None below=0/3 would_stop=False active=298
+mass=3.98107171e-05 t=1962961 fraction=0.00667 peak_slope=6.667e-07 t_peak=468990.6646655739 comparison_cadence=None difference=None below=0/3 would_stop=False active=298
+mass=3.98107171e-05 t=1972961 fraction=0.00667 peak_slope=6.667e-07 t_peak=468990.6646655739 comparison_cadence=None difference=None below=0/3 would_stop=False active=298
+mass=3.98107171e-05 t=1982961 fraction=0.00667 peak_slope=6.667e-07 t_peak=468990.6646655739 comparison_cadence=None difference=None below=0/3 would_stop=False active=298
+mass=3.98107171e-05 t=1992960 fraction=0.00667 peak_slope=6.667e-07 t_peak=468990.6646655739 comparison_cadence=None difference=None below=0/3 would_stop=False active=298
+mass=3.98107171e-05 t=2002960 fraction=0.00667 peak_slope=6.667e-07 t_peak=468990.6646655739 comparison_cadence=None difference=None below=0/3 would_stop=False active=298
+mass=3.98107171e-05 t=2012960 fraction=0.00667 peak_slope=6.667e-07 t_peak=468990.6646655739 comparison_cadence=None difference=None below=0/3 would_stop=False active=298
+mass=3.98107171e-05 t=2022960 fraction=0.00667 peak_slope=6.667e-07 t_peak=468990.6646655739 comparison_cadence=None difference=None below=0/3 would_stop=False active=298
+mass=3.98107171e-05 t=2032960 fraction=0.00667 peak_slope=6.667e-07 t_peak=468990.6646655739 comparison_cadence=None difference=None below=0/3 would_stop=False active=298
+mass=3.98107171e-05 t=2042959 fraction=0.00667 peak_slope=6.667e-07 t_peak=468990.6646655739 comparison_cadence=None difference=None below=0/3 would_stop=False active=298
