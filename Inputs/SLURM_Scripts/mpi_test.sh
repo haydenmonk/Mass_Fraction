@@ -17,8 +17,8 @@ source activate comets
 
 PYTHON_BIN="$CONDA_PREFIX/bin/python"
 
-echo "Python: $PYTHON_BIN"
-echo "SLURM_NTASKS: $SLURM_NTASKS"
+# echo "Python: $PYTHON_BIN"
+# echo "SLURM_NTASKS: $SLURM_NTASKS"
 
 mpirun -np "$SLURM_NTASKS" \
-    "$PYTHON_BIN" -u /scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/mpi_test.py
+    "$PYTHON_BIN" -u /scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/test_integrator.py
