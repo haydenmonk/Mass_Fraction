@@ -15,10 +15,10 @@ ARCHIVE_FILE = Path(
     "/scratch/group/p.phy260085.000/Mass_Fraction/Outputs/Sim_Archives/"
     "2199100_mass_1.00000000e-05/particle_410.bin"
 )
-END_TIME = 105000.0  # Absolute simulation time (years), NOT years to add
+END_TIME = 1732995  # Absolute simulation time (years), NOT years to add
 
 HEARTBEAT_LIB = Path(
-    "scratch/group/p.phy260085.000/Mass_Fraction/"
+    "/scratch/group/p.phy260085.000/Mass_Fraction/"
     "Inputs/N_Body_Scripts/Heartbeat/heartbeat.so"
 )
 A_PLANET = 1.0
