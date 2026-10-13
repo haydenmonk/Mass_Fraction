@@ -412,7 +412,7 @@ if __name__ == "__main__":
         # 0.00005: 5_000_000,
     }
 
-    masses=np.logspace(-5,-4.4,3)
+    masses=np.logspace(-5,-3.5,5, endpoint=False)
     t_maxes=(2.02731513e+01*masses**(-3/2) + 6.97903308e+04)*30
 
     # tmax_mass_list = list(tmax_mass_dict.items())
@@ -566,28 +566,28 @@ if __name__ == "__main__":
             sim = state["sim"]
 
             try:
-                with warnings.catch_warnings():
-                    warnings.filterwarnings(
-                        "error",
-                        message=r".*predictor corrector loops.*",
-                        category=RuntimeWarning
-                    )
-                    sim.integrate(t)
+                # with warnings.catch_warnings():
+                #     warnings.filterwarnings(
+                #         "error",
+                #         message=r".*predictor corrector loops.*",
+                #         category=RuntimeWarning
+                #     )
+                sim.integrate(t)
             except rebound.NoParticles:
                 write_results(output_file,m_planet,t,"Ejected", pid )
 
                 state["ejected"] = True
                 state["done"] = True
                 continue
-            except RuntimeWarning as w:
-                if "predictor corrector loops" in str(w):
-                    sim.save_to_file(str(state["archive_file"]))
-                    write_results(output_file,m_planet,t,"Integrator Error", pid )
+            # except RuntimeWarning as w:
+            #     if "predictor corrector loops" in str(w):
+            #         sim.save_to_file(str(state["archive_file"]))
+            #         write_results(output_file,m_planet,t,"Integrator Error", pid )
 
-                    state["done"] = True
-                    continue
+            #         state["done"] = True
+            #         continue
                 
-                raise
+            #     raise
 
             now=time.monotonic()
             if now-state["last_save"]>SAVE_INTERVAL:
