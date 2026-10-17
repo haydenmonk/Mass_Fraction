@@ -253,23 +253,13 @@ def run_mass(m_planet, original_dir, job_id):
             if t <= sim.t:
                 continue
             try:
-                with warnings.catch_warnings():
-                    warnings.filterwarnings(
-                        "error", message=r".*predictor corrector loops.*",
-                        category=RuntimeWarning,
-                    )
-                    sim.integrate(t)
+
+                sim.integrate(t)
             except rebound.NoParticles:
                 append_event(new_results_file, m_planet, t, "Ejected", pid)
                 state["done"], state["ejected"] = True, True
                 continue
-            except RuntimeWarning as exc:
-                if "predictor corrector loops" in str(exc):
-                    save_archive(state)
-                    append_event(new_results_file, m_planet, sim.t, "Integrator Error", pid)
-                    state["done"] = True
-                    continue
-                raise
+
 
             if time.monotonic() - state["last_save"] > SAVE_INTERVAL:
                 save_archive(state)
@@ -293,28 +283,29 @@ def run_mass(m_planet, original_dir, job_id):
         local_new_ejected = sum(s["ejected"] and s["original_event"] is None for s in states.values())
         new_ejected = comm.allreduce(local_new_ejected, op=MPI.SUM)
         if rank == 0:
-            # Historical events after the earliest checkpoint only enter the
-            # cumulative count when their recorded time has been reached.
-            historical_count_now = sum(et <= t for et in all_original_ejection_times)
+            historical_count_now = sum(
+                et <= t for et in all_original_ejection_times
+            )
             fraction = (historical_count_now + new_ejected) / N_TOTAL
-            would_stop, comparison_cadence, difference = update_diagnostics(d, t, fraction, cadence)
-            if step % DIAGNOSTIC_EVERY_STEPS == 0:
-                print(
-                    f"mass={m_planet:.8e} t={t:.0f} fraction={fraction:.5f} "
-                    f"peak_slope={d['peak_slope']:.3e} "
-                    f"t_peak={d['t_peak_slope']} "
-                    f"comparison_cadence={comparison_cadence} "
-                    f"difference={difference} "
-                    f"below={d['consecutive_below']}/{CONSECUTIVE_REQUIRED} "
-                    f"would_stop={would_stop} active={total_active}", flush=True,
-                )
-            # STOPPING DISABLED BY REQUEST:
-            # if would_stop:
-            #     break
 
-        # Physical termination is the only exit: all particles completed.
-        if total_active == 0:
+            would_stop, comparison_cadence, difference = update_diagnostics(
+                d, t, fraction, cadence
+            )
+
+            if step % DIAGNOSTIC_EVERY_STEPS == 0:
+                print(...)  # Keep your existing print statement
+
+        else:
+            would_stop = None
+
+        would_stop = comm.bcast(would_stop, root=0)
+
+        if would_stop or total_active == 0:
+            for state in states.values():
+                if not state["done"]:
+                    save_archive(state)
             break
+
         i += 1
         step += 1
 

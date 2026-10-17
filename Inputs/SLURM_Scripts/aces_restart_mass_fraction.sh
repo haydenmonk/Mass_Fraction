@@ -2,12 +2,11 @@
 
 #SBATCH --job-name=mass_fraction_mpi
 
-# Six active masses: indices 0-5
-# %1 means only one mass runs at a time
-#SBATCH --array=0-2
+
+#SBATCH --array=0-3
 
 # Number of MPI ranks working on EACH mass
-#SBATCH --ntasks=5
+#SBATCH --ntasks=24
 #SBATCH --cpus-per-task=1
 
 #SBATCH --mem=10G
