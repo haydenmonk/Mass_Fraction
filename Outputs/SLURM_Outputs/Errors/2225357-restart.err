@@ -1,0 +1,42 @@
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:148: RuntimeWarning: You have to reset function pointers after creating a reb_simulation struct with a binary file.
+  warnings.warn(message, RuntimeWarning)
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:148: RuntimeWarning: You have to reset function pointers after creating a reb_simulation struct with a binary file.
+  warnings.warn(message, RuntimeWarning)
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:148: RuntimeWarning: You have to reset function pointers after creating a reb_simulation struct with a binary file.
+  warnings.warn(message, RuntimeWarning)
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:148: RuntimeWarning: You have to reset function pointers after creating a reb_simulation struct with a binary file.
+  warnings.warn(message, RuntimeWarning)
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:148: RuntimeWarning: You have to reset function pointers after creating a reb_simulation struct with a binary file.
+  warnings.warn(message, RuntimeWarning)
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:148: RuntimeWarning: You have to reset function pointers after creating a reb_simulation struct with a binary file.
+  warnings.warn(message, RuntimeWarning)
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:148: RuntimeWarning: You have to reset function pointers after creating a reb_simulation struct with a binary file.
+  warnings.warn(message, RuntimeWarning)
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:148: RuntimeWarning: You have to reset function pointers after creating a reb_simulation struct with a binary file.
+  warnings.warn(message, RuntimeWarning)
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:148: RuntimeWarning: You have to reset function pointers after creating a reb_simulation struct with a binary file.
+  warnings.warn(message, RuntimeWarning)
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:148: RuntimeWarning: You have to reset function pointers after creating a reb_simulation struct with a binary file.
+  warnings.warn(message, RuntimeWarning)
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:148: RuntimeWarning: You have to reset function pointers after creating a reb_simulation struct with a binary file.
+  warnings.warn(message, RuntimeWarning)
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:148: RuntimeWarning: You have to reset function pointers after creating a reb_simulation struct with a binary file.
+  warnings.warn(message, RuntimeWarning)
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:148: RuntimeWarning: You have to reset function pointers after creating a reb_simulation struct with a binary file.
+  warnings.warn(message, RuntimeWarning)
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:148: RuntimeWarning: You have to reset function pointers after creating a reb_simulation struct with a binary file.
+  warnings.warn(message, RuntimeWarning)
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:148: RuntimeWarning: You have to reset function pointers after creating a reb_simulation struct with a binary file.
+  warnings.warn(message, RuntimeWarning)
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:148: RuntimeWarning: You have to reset function pointers after creating a reb_simulation struct with a binary file.
+  warnings.warn(message, RuntimeWarning)
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:254: RuntimeWarning: At least 10 predictor corrector loops in IAS15 did not converge. This is typically an indication of the timestep being too large.
+  warnings.warn(msg[1:], RuntimeWarning)
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:254: RuntimeWarning: At least 10 predictor corrector loops in IAS15 did not converge. This is typically an indication of the timestep being too large.
+  warnings.warn(msg[1:], RuntimeWarning)
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:254: RuntimeWarning: At least 10 predictor corrector loops in IAS15 did not converge. This is typically an indication of the timestep being too large.
+  warnings.warn(msg[1:], RuntimeWarning)
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:254: RuntimeWarning: At least 10 predictor corrector loops in IAS15 did not converge. This is typically an indication of the timestep being too large.
+  warnings.warn(msg[1:], RuntimeWarning)
+/scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:254: RuntimeWarning: At least 10 predictor corrector loops in IAS15 did not converge. This is typically an indication of the timestep being too large.
+  warnings.warn(msg[1:], RuntimeWarning)

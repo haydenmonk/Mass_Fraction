@@ -1,4 +1,3 @@
-
 #!/bin/bash --login
 #SBATCH --job-name=mass_fraction_restart
 #SBATCH --ntasks=16
