@@ -1,7 +1,7 @@
-
 #!/bin/bash --login
 #SBATCH --job-name=mass_fraction_restart
 #SBATCH --ntasks=12
+#SBATCH --array=0-2
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10G
 #SBATCH --time=71:59:00
