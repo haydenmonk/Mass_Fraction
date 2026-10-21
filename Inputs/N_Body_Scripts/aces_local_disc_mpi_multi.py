@@ -69,6 +69,7 @@ def create_sim(
     r_max,
     a_planet=1.0,
     m_star=1.0,
+    e_scale=0.005,
     i_difference=0.1,
     seed=None,
     particle_id=None,
@@ -94,9 +95,9 @@ def create_sim(
     # Exactly ONE massless particle per simulation
     a = rng.uniform(r_min, r_max)
     print(a)
-    e = rng.rayleigh(scale=0.1)
+    e = rng.rayleigh(scale=e_scale)
     while e >= 1:
-        e = rng.rayleigh(scale=0.1)
+        e = rng.rayleigh(scale=e_scale)
     inc = rng.uniform(-i_difference, i_difference)
     Omega = rng.uniform(0, 2 * np.pi)
     omega = rng.uniform(0, 2 * np.pi)
@@ -412,7 +413,7 @@ if __name__ == "__main__":
         # 0.00005: 5_000_000,
     }
 
-    masses=np.logspace(-5,-3.5,5, endpoint=False)
+    masses=np.logspace(-3.5,-4.1,8)
     t_maxes=(2.02731513e+01*masses**(-3/2) + 6.97903308e+04)*30
 
     # tmax_mass_list = list(tmax_mass_dict.items())
