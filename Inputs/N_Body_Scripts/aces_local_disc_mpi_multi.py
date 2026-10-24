@@ -69,7 +69,7 @@ def create_sim(
     r_max,
     a_planet=1.0,
     m_star=1.0,
-    e_scale=0.005,
+    e_scale=0.05,
     i_difference=0.1,
     seed=None,
     particle_id=None,
@@ -413,7 +413,7 @@ if __name__ == "__main__":
         # 0.00005: 5_000_000,
     }
 
-    masses=np.logspace(-3.5,-4.1,8)
+    masses=np.logspace(-2,-4.1,8)
     t_maxes=(2.02731513e+01*masses**(-3/2) + 6.97903308e+04)*30
 
     # tmax_mass_list = list(tmax_mass_dict.items())
@@ -506,7 +506,7 @@ if __name__ == "__main__":
         # outer_lim=power_law(m_planet, A_outer, alpha_outer)/5
         # inner_lim=power_law(m_planet, A_inner, alpha_inner)/5
         # r_min_1=a_planet+1.05*outer_lim
-        r_max_1=2
+        r_max_1=2.5
         r_min_2=0.6
         # r_max_2=a_planet-1.05*inner_lim
 

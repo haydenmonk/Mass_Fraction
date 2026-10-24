@@ -22,3 +22,4 @@
   warnings.warn(message, RuntimeWarning)
 /scratch/user/u.hm357857/.conda/envs/comets/lib/python3.11/site-packages/rebound/simulation.py:148: RuntimeWarning: You have to reset function pointers after creating a reb_simulation struct with a binary file.
   warnings.warn(message, RuntimeWarning)
+[2026-10-22T15:15:12.023] error: *** JOB 2230001 ON ac047 CANCELLED AT 2026-10-22T15:15:12 DUE TO TIME LIMIT ***
