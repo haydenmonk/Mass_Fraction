@@ -25,7 +25,8 @@ MASS_DIRECTORIES = [
     # MANUALLY ENTER ORIGINAL ARCHIVE DIRECTORY NAMES HERE:
     '2215154_mass_1.99526231e-05',
     '2215154_mass_3.98107171e-05',
-    '2215154_mass_7.94328235e-05'
+    '2215154_mass_7.94328235e-05',
+    '2215154_mass_1.00000000e-05'
 ]
 N_total = 800                 # Must match the original simulation for these masses
 A_PLANET = 1.0              # Must match the original simulation
@@ -162,6 +163,20 @@ def update_stopping(fraction_record, t, fraction, cadence,
             stop = consecutive_below >= consecutive_required
     return stop, peak_slope, t_peak_slope, consecutive_below
 
+def find_checkpoint(pid):
+    original = original_directory / f"particle_{pid}.bin"
+    restarted = restart_directory / f"particle_{pid}.bin"
+
+    if restarted.exists():
+        return restarted
+
+    if original.exists():
+        return original
+
+    raise FileNotFoundError(
+        f"No checkpoint found for particle {pid}"
+    )
+
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
@@ -180,23 +195,31 @@ if __name__ == '__main__':
     output_file = result_directory / f'{directory_name}_restarted_results.txt'
     final_position_file = result_directory / f'{directory_name}_remaining_particles.csv'
 
-    # Fail if an old restart already wrote data for this mass.
     if rank == 0:
-        collision = output_file.exists() or final_position_file.exists() or (
-            restart_directory.exists() and any(restart_directory.glob('particle_*.bin')))
         missing_directory = not original_directory.is_dir()
     else:
-        collision = None
         missing_directory = None
-    collision, missing_directory = comm.bcast((collision, missing_directory), root=0)
+
+    missing_directory = comm.bcast(missing_directory, root=0)
+
     if missing_directory:
         raise FileNotFoundError(original_directory)
-    if collision:
-        raise RuntimeError(f'Restart outputs already exist for {directory_name}; do not overwrite.')
+
     restart_directory.mkdir(parents=True, exist_ok=True)
     result_directory.mkdir(parents=True, exist_ok=True)
 
     old_events = read_old_results(original_results, m_planet)
+    if output_file.exists():
+        restarted_events = read_old_results(output_file, m_planet)
+
+        duplicates = set(old_events) & set(restarted_events)
+
+        if duplicates:
+            raise ValueError(
+                f"Duplicate terminal events: {sorted(duplicates)}"
+            )
+
+        old_events.update(restarted_events)
 
     planet_period = np.sqrt(A_PLANET ** 3 / (M_STAR + m_planet))
     cadence = 1e3 * planet_period
@@ -215,9 +238,8 @@ if __name__ == '__main__':
         if pid in old_events:
             states[pid] = dict(sim=None, done=True, ejected=old_events[pid][0] == 'Ejected')
             continue
-        filename = original_directory / f'particle_{pid}.bin'
-        if not filename.exists():
-            raise FileNotFoundError(f'Particle {pid} has neither a terminal result nor an archive: {filename}')
+
+        filename = find_checkpoint(pid)
         sim = load_sim(filename)
         local_greatest_t = max(local_greatest_t, sim.t)
         states[pid] = dict(sim=sim, done=False, ejected=False,
