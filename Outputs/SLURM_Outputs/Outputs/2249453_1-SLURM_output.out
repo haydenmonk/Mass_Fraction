@@ -846,3 +846,7 @@ t=137655  fraction=0.35000  peak_slope=1.228e-05  t_peak=38903  comparison caden
 t=138653  fraction=0.35250  peak_slope=1.228e-05  t_peak=38903  comparison cadence=116708  difference=0.35250  below=0/3
 t=139650  fraction=0.35250  peak_slope=1.228e-05  t_peak=38903  comparison cadence=116708  difference=0.35250  below=0/3
 t=140648  fraction=0.35250  peak_slope=1.228e-05  t_peak=38903  comparison cadence=116708  difference=0.35250  below=0/3
+t=141645  fraction=0.35500  peak_slope=1.228e-05  t_peak=38903  comparison cadence=116708  difference=0.35375  below=0/3
+t=142643  fraction=0.35500  peak_slope=1.228e-05  t_peak=38903  comparison cadence=116708  difference=0.35250  below=0/3
+t=143640  fraction=0.35625  peak_slope=1.228e-05  t_peak=38903  comparison cadence=116708  difference=0.35125  below=0/3
+t=144638  fraction=0.35875  peak_slope=1.228e-05  t_peak=38903  comparison cadence=116708  difference=0.34625  below=0/3
