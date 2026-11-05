@@ -69,7 +69,7 @@ def create_sim(
     r_max,
     a_planet=1.0,
     m_star=1.0,
-    e_scale=0.1,
+    e_scale=0.05,
     i_difference=0.1,
     seed=None,
     particle_id=None,
@@ -413,7 +413,7 @@ if __name__ == "__main__":
         # 0.00005: 5_000_000,
     }
 
-    masses=np.logspace(-2,-2.6,3)
+    masses=np.logspace(-2,-4.1,8)
     t_maxes=(2.02731513e+01*masses**(-3/2) + 6.97903308e+04)*30
 
     # tmax_mass_list = list(tmax_mass_dict.items())
