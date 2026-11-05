@@ -4,7 +4,7 @@
 
 # Six active masses: indices 0-5
 # %1 means only one mass runs at a time
-#SBATCH --array=0-2
+#SBATCH --array=0-7git 
 
 # Number of MPI ranks working on EACH mass
 #SBATCH --ntasks=8
@@ -27,7 +27,7 @@ set -euo pipefail
 # Configuration
 # ============================================================
 
-PYTHON_SCRIPT="/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_mpi_multi.py"
+PYTHON_SCRIPT="/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/aces_local_disc_stopping_criterion_2.py"
 
 
 
