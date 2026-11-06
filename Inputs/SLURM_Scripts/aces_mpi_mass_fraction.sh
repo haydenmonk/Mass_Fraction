@@ -4,11 +4,7 @@
 
 # Six active masses: indices 0-5
 # %1 means only one mass runs at a time
-<<<<<<< HEAD
-#SBATCH --array=0-7 
-=======
 #SBATCH --array=0-7
->>>>>>> 5c4054dd9 (ACES stopping tweak)
 
 # Number of MPI ranks working on EACH mass
 #SBATCH --ntasks=8
