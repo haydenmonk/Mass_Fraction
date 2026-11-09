@@ -4,3 +4,6 @@ MPI ranks: 8
 Start: Mon Nov  9 10:45:45 CST 2026
 Restarting 2299743_mass_7.94328235e-05 with 8 ranks; greatest_t=7457703.8
 Historical ejections: 118, fraction before catch-up: 0.14500
+t=7459704 fraction=0.14500 peak=7.500e-07 t_peak=4533819.936516267 below=0/3 active=679 stop=False
+t=7469703 fraction=0.14500 peak=7.500e-07 t_peak=4533819.936516267 below=0/3 active=679 stop=False
+t=7479703 fraction=0.14500 peak=7.500e-07 t_peak=4533819.936516267 below=0/3 active=679 stop=False
