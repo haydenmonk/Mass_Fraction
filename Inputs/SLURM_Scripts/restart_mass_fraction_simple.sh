@@ -1,7 +1,7 @@
 #!/bin/bash --login
 #SBATCH --job-name=mass_fraction_restart
 #SBATCH --ntasks=8
-#SBATCH --array=0-2
+#SBATCH --array=0
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=10G
 #SBATCH --time=71:59:00
@@ -13,7 +13,7 @@
 set -euo pipefail
 
 ROOT="/scratch/group/p.phy260085.000/Mass_Fraction"
-JOB_ID="2215154"
+JOB_ID="2299743"
 
 PYTHON_SCRIPT="$ROOT/Inputs/N_Body_Scripts/restart_mass_fraction_simple.py"
 
