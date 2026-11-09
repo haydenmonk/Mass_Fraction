@@ -31,12 +31,12 @@ M_STAR = 1.0                 # Must match the original simulation
 SAVE_INTERVAL = 2 * 60 * 60  # Seconds of wall time between restart checkpoints
 
 # Original September 6 stopping parameters
-slope_window = 5
-minimum_comparison_steps = 20
+slope_fraction = 0.1
+minimum_comparison_steps = 100
 consecutive_required = 3
-minimum_fraction = 0.1
-fraction_change_limit = 0.05
-max_integration_time = 1e8
+minimum_fraction = 0.07
+fraction_change_limit = 0.01
+max_integration_time = 1e10
 # -----------------------------------------------
 
 comm = MPI.COMM_WORLD
@@ -141,23 +141,56 @@ def save_remaining_particles(states, output_file, m_planet, G):
 
 def update_stopping(fraction_record, t, fraction, cadence,
                     peak_slope, t_peak_slope, consecutive_below):
-    """Exactly the slope/window comparison from the original script."""
+
     fraction_record.append(fraction)
+
+    # Slope-estimation window: 0.1t
+    n_window = max(1, int(round(slope_fraction * t / cadence)))
+
+    # Recalculate the peak slope using the current window
+    peak_slope = -np.inf
+    t_peak_slope = None
+
+    if len(fraction_record) > n_window:
+        slopes = (
+            np.asarray(fraction_record[n_window:])
+            - np.asarray(fraction_record[:-n_window])
+        ) / (n_window * cadence)
+
+        peak_index = np.argmax(slopes)
+        peak_slope = slopes[peak_index]
+        t_peak_slope = (peak_index + n_window) * cadence
+
     stop = False
-    if len(fraction_record) > slope_window:
-        slope = (fraction_record[-1] - fraction_record[-(slope_window + 1)]) / (slope_window * cadence)
-        if slope > peak_slope:
-            peak_slope, t_peak_slope = slope, t
-    if fraction >= minimum_fraction and t_peak_slope is not None:
-        comparison_cadence = max(2 * t_peak_slope, minimum_comparison_steps * cadence)
-        n_steps_back = int(round(comparison_cadence / cadence))
+
+    if (
+        fraction >= minimum_fraction
+        and t_peak_slope is not None
+        and t - t_peak_slope > 2 * n_window * cadence
+    ):
+        comparison_interval = max(
+            3 * t_peak_slope,
+            minimum_comparison_steps * cadence
+        )
+
+        n_steps_back = int(round(comparison_interval / cadence))
+
         if len(fraction_record) > n_steps_back:
-            difference = fraction_record[-1] - fraction_record[-(n_steps_back + 1)]
+            difference = (
+                fraction_record[-1]
+                - fraction_record[-(n_steps_back + 1)]
+            )
+
             if difference < fraction_change_limit:
                 consecutive_below += 1
             else:
                 consecutive_below = 0
+
             stop = consecutive_below >= consecutive_required
+
+    else:
+        consecutive_below = 0
+
     return stop, peak_slope, t_peak_slope, consecutive_below
 
 def find_checkpoint(pid):
