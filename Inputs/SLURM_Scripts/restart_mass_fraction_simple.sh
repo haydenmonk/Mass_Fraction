@@ -13,7 +13,7 @@
 set -euo pipefail
 
 ROOT="/scratch/group/p.phy260085.000/Mass_Fraction"
-JOB_ID="2299743"
+JOB_ID="2215154"
 
 PYTHON_SCRIPT="$ROOT/Inputs/N_Body_Scripts/restart_mass_fraction_simple.py"
 
