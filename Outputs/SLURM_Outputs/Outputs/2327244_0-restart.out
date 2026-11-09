@@ -1,0 +1,7 @@
+Original job ID: 2299743
+Array task: 0
+MPI ranks: 8
+Start: Mon Nov  9 12:41:25 CST 2026
+Restarting 2299743_mass_7.94328235e-05 with 8 ranks; greatest_t=7457703.8
+Historical ejections: 118, fraction before catch-up: 0.14500
+t=7459704 fraction=0.14500 peak=4.357e-08 t_peak=4186833.717290166 below=0/3 active=679 stop=False
