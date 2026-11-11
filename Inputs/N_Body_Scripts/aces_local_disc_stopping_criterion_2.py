@@ -69,7 +69,7 @@ def create_sim(
     r_max,
     a_planet=1.0,
     m_star=1.0,
-    e_scale=0.1,
+    e_scale=0.05,
     i_difference=0.1,
     seed=None,
     particle_id=None,
