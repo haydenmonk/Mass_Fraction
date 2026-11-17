@@ -23,10 +23,8 @@ from mpi4py import MPI
 ROOT = Path('/scratch/group/p.phy260085.000/Mass_Fraction')
 MASS_DIRECTORIES = [
     # MANUALLY ENTER ORIGINAL ARCHIVE DIRECTORY NAMES HERE:
-    '2215154_mass_1.00000000e-05',
-    '2215154_mass_1.99526231e-05',
-    '2215154_mass_3.98107171e-05',
-    '2215154_mass_7.94328235e-05',
+    '2337479_mass_7.94328235e-05',
+    '2337479_mass_6.30957344e-04'
 
 ]
 N_total = 800                 # Must match the original simulation for these masses
@@ -312,7 +310,7 @@ if __name__ == '__main__':
             print('Note: reconstructed history already satisfies the original stopping condition.', flush=True)
 
     # Bring all surviving simulations to the latest checkpoint.
-    # An ejection during catch-up is logged as an ejection (requested behavior).
+    # An ejection during catch-up is logged as an ejection.
     for pid, state in states.items():
         if state['done']:
             continue
