@@ -1,0 +1,40 @@
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/restart_mass_fraction_simple.py", line 217, in <module>
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/restart_mass_fraction_simple.py", line 217, in <module>
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/restart_mass_fraction_simple.py", line 217, in <module>
+    directory_name = MASS_DIRECTORIES[mass_index]
+                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+IndexError: list index out of range
+    directory_name = MASS_DIRECTORIES[mass_index]
+                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+IndexError: list index out of range
+    directory_name = MASS_DIRECTORIES[mass_index]
+                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/restart_mass_fraction_simple.py", line 217, in <module>
+    directory_name = MASS_DIRECTORIES[mass_index]
+                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/restart_mass_fraction_simple.py", line 217, in <module>
+    directory_name = MASS_DIRECTORIES[mass_index]
+                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/restart_mass_fraction_simple.py", line 217, in <module>
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/restart_mass_fraction_simple.py", line 217, in <module>
+Traceback (most recent call last):
+  File "/scratch/group/p.phy260085.000/Mass_Fraction/Inputs/N_Body_Scripts/restart_mass_fraction_simple.py", line 217, in <module>
+    directory_name = MASS_DIRECTORIES[mass_index]
+                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+IndexError: list index out of range
+    directory_name = MASS_DIRECTORIES[mass_index]
+                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+IndexError: list index out of range
+    directory_name = MASS_DIRECTORIES[mass_index]
+                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+IndexError: list index out of range

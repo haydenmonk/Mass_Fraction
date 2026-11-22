@@ -23,8 +23,7 @@ from mpi4py import MPI
 ROOT = Path('/scratch/group/p.phy260085.000/Mass_Fraction')
 MASS_DIRECTORIES = [
     # MANUALLY ENTER ORIGINAL ARCHIVE DIRECTORY NAMES HERE:
-    '2337479_mass_7.94328235e-05',
-    '2337479_mass_6.30957344e-04'
+    '2299743_mass_7.94328235e-05'
 
 ]
 N_total = 800                 # Must match the original simulation for these masses
